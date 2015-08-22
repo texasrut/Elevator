@@ -1,0 +1,14 @@
+C:\Users\Brian\documents\visual studio 2012\Projects\ElevatorProj\ElevatorProj\bin\Debug\ElevatorProj.exe.config
+C:\Users\Brian\documents\visual studio 2012\Projects\ElevatorProj\ElevatorProj\bin\Debug\ElevatorProj.exe
+C:\Users\Brian\documents\visual studio 2012\Projects\ElevatorProj\ElevatorProj\bin\Debug\ElevatorProj.pdb
+C:\Users\Brian\documents\visual studio 2012\Projects\ElevatorProj\ElevatorProj\obj\Debug\ElevatorProj.exe
+C:\Users\Brian\documents\visual studio 2012\Projects\ElevatorProj\ElevatorProj\obj\Debug\ElevatorProj.pdb
+C:\Users\james.rutledge\Desktop\ElevatorProj\ElevatorProj\bin\Debug\ElevatorProj.exe.config
+C:\Users\james.rutledge\Desktop\ElevatorProj\ElevatorProj\obj\Debug\ElevatorProj.exe
+C:\Users\james.rutledge\Desktop\ElevatorProj\ElevatorProj\obj\Debug\ElevatorProj.pdb
+C:\Users\Brian\Dropbox\Personal\ForceX\ElevatorProj\ElevatorProj\bin\Debug\ElevatorProj.exe.config
+C:\Users\Brian\Dropbox\Personal\ForceX\ElevatorProj\ElevatorProj\bin\Debug\ElevatorProj.exe
+C:\Users\Brian\Dropbox\Personal\ForceX\ElevatorProj\ElevatorProj\bin\Debug\ElevatorProj.pdb
+C:\Users\Brian\Dropbox\Personal\ForceX\ElevatorProj\ElevatorProj\obj\Debug\ElevatorProj.exe
+C:\Users\Brian\Dropbox\Personal\ForceX\ElevatorProj\ElevatorProj\obj\Debug\ElevatorProj.pdb
+C:\Users\Brian\Dropbox\Personal\ForceX\ElevatorProj\ElevatorProj\obj\Debug\ElevatorProj.csprojResolveAssemblyReference.cache

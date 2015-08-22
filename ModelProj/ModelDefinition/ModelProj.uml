@@ -1,0 +1,3825 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm11="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="aae89845-d670-456c-a947-1702c2d7c10e"
+  name="ModelProj" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="302000c7-45cd-43f4-a8a3-3249700da96a">
+      <profileInstance
+        Id="c7f03d02-68f9-46fe-ad05-43faca898189"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="ae105f53-6b37-4da8-8034-2311ad73aed7"
+        LastKnownName="ElevatorProj"
+        LastKnownLocation="Package_1537.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="873a57fb-f94b-484c-b430-91afdbf147f8"
+        LastKnownName="System"
+        LastKnownLocation="Package2_1537.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <interaction
+        Id="24770f3c-263f-4323-a612-d6137401fe77"
+        name="CallElevatorSequence"
+        collapseFragmentsFlag="false"
+        isActiveClass="false"
+        isAbstract="false"
+        isLeaf="false"
+        isReentrant="false">
+        <fragments>
+          <behaviorExecutionSpecification
+            Id="06025957-82ee-47be-93db-1806563a0481"
+            name="BehaviorExecutionSpecification7">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="f7f9d781-161a-4186-a7f5-c0fa034c1e6b"
+                LastKnownName="floorButtonPanel : FloorButtonPanel"
+                LastKnownLocation="ModelProj.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="88ddda99-0663-4126-9fa8-6e69e9e1fdef"
+                LastKnownName="ExecutionOccurrenceSpecification14"
+                LastKnownLocation="ModelProj.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="a6899e03-c7df-4ce1-81e6-0240b73b1c74"
+                LastKnownName="ExecutionOccurrenceSpecification13"
+                LastKnownLocation="ModelProj.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="191f721f-32a0-48a6-ae9e-4061cca2cf0a"
+                LastKnownName="MessageOccurrenceSpecification20"
+                LastKnownLocation="ModelProj.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="f1d55942-0548-4ee1-bd3f-46f69f0e6dc3"
+                LastKnownName="MessageOccurrenceSpecification23"
+                LastKnownLocation="ModelProj.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="cbc24f19-b3de-4e58-b03e-7e9e921cfc9f"
+                LastKnownName="MessageOccurrenceSpecification26"
+                LastKnownLocation="ModelProj.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="af66e04a-9c0f-4f3f-9833-7f83ccb4746e"
+                LastKnownName="MessageOccurrenceSpecification21"
+                LastKnownLocation="ModelProj.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="a6899e03-c7df-4ce1-81e6-0240b73b1c74"
+            name="ExecutionOccurrenceSpecification13">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="8741c235-a670-4f97-a753-8f20d9fcdc44"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ModelProj.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="f7f9d781-161a-4186-a7f5-c0fa034c1e6b"
+                LastKnownName="floorButtonPanel : FloorButtonPanel"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="b9145a14-85c6-4d7f-87bb-8d6eceb26dbd"
+            name="MessageOccurrenceSpecification19">
+            <covered>
+              <lifelineMoniker
+                Id="09f64176-15c1-4adf-bdc1-6807efe35135"
+                LastKnownName="elevatorBank : ElevatorBank"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="191f721f-32a0-48a6-ae9e-4061cca2cf0a"
+            name="MessageOccurrenceSpecification20">
+            <covered>
+              <lifelineMoniker
+                Id="f7f9d781-161a-4186-a7f5-c0fa034c1e6b"
+                LastKnownName="floorButtonPanel : FloorButtonPanel"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="6b5d74c3-a91d-4e55-abc0-b47a100da24a"
+            name="BehaviorExecutionSpecification8">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="2bc887e7-ac17-4d06-a29f-f9390d6b2de3"
+                LastKnownName="elevatorController : ElevatorController"
+                LastKnownLocation="ModelProj.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="4c6d8d55-cdc1-4acb-855c-0f448358b595"
+                LastKnownName="ExecutionOccurrenceSpecification16"
+                LastKnownLocation="ModelProj.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="e41fea5d-e272-490d-9ed3-911b745cd56c"
+                LastKnownName="ExecutionOccurrenceSpecification15"
+                LastKnownLocation="ModelProj.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="4ce062ff-9b03-42d7-a342-37dccb1c31ca"
+                LastKnownName="MessageOccurrenceSpecification24"
+                LastKnownLocation="ModelProj.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="4edc748d-4aea-4d6b-a122-269983c83f55"
+                LastKnownName="MessageOccurrenceSpecification43"
+                LastKnownLocation="ModelProj.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="b084b77f-c36c-42a5-9d64-73dd64802dc0"
+                LastKnownName="MessageOccurrenceSpecification46"
+                LastKnownLocation="ModelProj.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="1b9e16ce-a754-4830-8284-e20c5215b4d8"
+                LastKnownName="OperandOccurrenceSpecification3"
+                LastKnownLocation="ModelProj.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="da50d464-f961-4752-b456-c1f6928b71ef"
+                LastKnownName="MessageOccurrenceSpecification47"
+                LastKnownLocation="ModelProj.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="a1631d45-e1f8-4925-9d2c-e167c3aa5af0"
+                LastKnownName="MessageOccurrenceSpecification50"
+                LastKnownLocation="ModelProj.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="91e838d6-3037-4095-b790-8b1608ae9de2"
+                LastKnownName="OperandOccurrenceSpecification4"
+                LastKnownLocation="ModelProj.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="cd59d93b-9842-4188-a635-71108639bf4e"
+                LastKnownName="OperandOccurrenceSpecification7"
+                LastKnownLocation="ModelProj.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="c71e49f8-870e-4cd9-a825-ecebcccd0b42"
+                LastKnownName="MessageOccurrenceSpecification47"
+                LastKnownLocation="ModelProj.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="df995feb-5b5f-4f5c-b94b-90f8bda5388f"
+                LastKnownName="MessageOccurrenceSpecification50"
+                LastKnownLocation="ModelProj.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="16fb049c-97aa-470b-baa4-78b7e1cf6d4f"
+                LastKnownName="OperandOccurrenceSpecification13"
+                LastKnownLocation="ModelProj.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="9db1fc1c-e090-4e3e-a944-08126fe200c5"
+                LastKnownName="MessageOccurrenceSpecification73"
+                LastKnownLocation="ModelProj.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="c629074b-550b-48a2-9220-35165e96ce68"
+                LastKnownName="ExecutionOccurrenceSpecification43"
+                LastKnownLocation="ModelProj.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="2bd637d3-3002-41b4-9c0b-2285a411be58"
+                LastKnownName="ExecutionOccurrenceSpecification44"
+                LastKnownLocation="ModelProj.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="fa52607d-41b3-41c4-90d4-2fb55c5d38c1"
+                LastKnownName="OperandOccurrenceSpecification14"
+                LastKnownLocation="ModelProj.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="b398a9f3-bff6-4537-bb6f-d60d27f9cbc9"
+                LastKnownName="OperandOccurrenceSpecification8"
+                LastKnownLocation="ModelProj.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="8da48406-a109-493f-9411-9e5c602ba30b"
+                LastKnownName="MessageOccurrenceSpecification25"
+                LastKnownLocation="ModelProj.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="e41fea5d-e272-490d-9ed3-911b745cd56c"
+            name="ExecutionOccurrenceSpecification15">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="6667b1bd-2f8a-486e-8e2e-acc8cabe028f"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ModelProj.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="2bc887e7-ac17-4d06-a29f-f9390d6b2de3"
+                LastKnownName="elevatorController : ElevatorController"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="4ce062ff-9b03-42d7-a342-37dccb1c31ca"
+            name="MessageOccurrenceSpecification24">
+            <covered>
+              <lifelineMoniker
+                Id="2bc887e7-ac17-4d06-a29f-f9390d6b2de3"
+                LastKnownName="elevatorController : ElevatorController"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="f1d55942-0548-4ee1-bd3f-46f69f0e6dc3"
+            name="MessageOccurrenceSpecification23">
+            <covered>
+              <lifelineMoniker
+                Id="f7f9d781-161a-4186-a7f5-c0fa034c1e6b"
+                LastKnownName="floorButtonPanel : FloorButtonPanel"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="7e67e512-c726-4007-a7f0-b8559cc527ef"
+            name="BehaviorExecutionSpecification13">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="10da9f6a-4f6e-4ebb-9fda-9b1c1ce7b327"
+                LastKnownName="dispatchCalculator : DispatchCalculator"
+                LastKnownLocation="ModelProj.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="6534e710-cee8-449b-ad4d-5eb22ae684f9"
+                LastKnownName="ExecutionOccurrenceSpecification26"
+                LastKnownLocation="ModelProj.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="87041b3f-6b3a-408f-adc7-49a0d47c4ca6"
+                LastKnownName="ExecutionOccurrenceSpecification25"
+                LastKnownLocation="ModelProj.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="151b811a-fcb3-4a45-b27b-15f27910b443"
+                LastKnownName="MessageOccurrenceSpecification44"
+                LastKnownLocation="ModelProj.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="d3f728f3-1962-4daa-b677-2dc06e4ca5e3"
+                LastKnownName="MessageOccurrenceSpecification45"
+                LastKnownLocation="ModelProj.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="87041b3f-6b3a-408f-adc7-49a0d47c4ca6"
+            name="ExecutionOccurrenceSpecification25">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="a4d36776-3a91-46c4-9581-771cc6f764c2"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ModelProj.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="10da9f6a-4f6e-4ebb-9fda-9b1c1ce7b327"
+                LastKnownName="dispatchCalculator : DispatchCalculator"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="151b811a-fcb3-4a45-b27b-15f27910b443"
+            name="MessageOccurrenceSpecification44">
+            <covered>
+              <lifelineMoniker
+                Id="10da9f6a-4f6e-4ebb-9fda-9b1c1ce7b327"
+                LastKnownName="dispatchCalculator : DispatchCalculator"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="4edc748d-4aea-4d6b-a122-269983c83f55"
+            name="MessageOccurrenceSpecification43">
+            <covered>
+              <lifelineMoniker
+                Id="2bc887e7-ac17-4d06-a29f-f9390d6b2de3"
+                LastKnownName="elevatorController : ElevatorController"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="b084b77f-c36c-42a5-9d64-73dd64802dc0"
+            name="MessageOccurrenceSpecification46">
+            <covered>
+              <lifelineMoniker
+                Id="2bc887e7-ac17-4d06-a29f-f9390d6b2de3"
+                LastKnownName="elevatorController : ElevatorController"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="d3f728f3-1962-4daa-b677-2dc06e4ca5e3"
+            name="MessageOccurrenceSpecification45">
+            <covered>
+              <lifelineMoniker
+                Id="10da9f6a-4f6e-4ebb-9fda-9b1c1ce7b327"
+                LastKnownName="dispatchCalculator : DispatchCalculator"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="6534e710-cee8-449b-ad4d-5eb22ae684f9"
+            name="ExecutionOccurrenceSpecification26">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="0a0590ec-d0d4-467d-9c3c-e270b523d8ac"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ModelProj.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="10da9f6a-4f6e-4ebb-9fda-9b1c1ce7b327"
+                LastKnownName="dispatchCalculator : DispatchCalculator"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <combinedFragment
+            Id="2c63dfb5-7ea8-401a-b09d-50ccafbd97fe"
+            name="CombinedFragment1"
+            interactionOperator="Alt">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="98b57178-e5cb-46bd-adb7-ef8270d61bac"
+                LastKnownName="elevatorStopQueue : ElevatorStopQueue"
+                LastKnownLocation="ModelProj.uml" />
+              <lifelineMoniker
+                Id="2bc887e7-ac17-4d06-a29f-f9390d6b2de3"
+                LastKnownName="elevatorController : ElevatorController"
+                LastKnownLocation="ModelProj.uml" />
+              <lifelineMoniker
+                Id="290d7862-5554-429a-95c0-d2e9592b8530"
+                LastKnownName="elevator : Elevator"
+                LastKnownLocation="ModelProj.uml" />
+            </coveredLifelines>
+            <operands>
+              <interactionOperand
+                Id="840791a8-1785-40e9-9a5c-cef62d203110"
+                name="InteractionOperand1">
+                <coveredLifelines>
+                  <lifelineMoniker
+                    Id="98b57178-e5cb-46bd-adb7-ef8270d61bac"
+                    LastKnownName="elevatorStopQueue : ElevatorStopQueue"
+                    LastKnownLocation="ModelProj.uml" />
+                  <lifelineMoniker
+                    Id="2bc887e7-ac17-4d06-a29f-f9390d6b2de3"
+                    LastKnownName="elevatorController : ElevatorController"
+                    LastKnownLocation="ModelProj.uml" />
+                  <lifelineMoniker
+                    Id="290d7862-5554-429a-95c0-d2e9592b8530"
+                    LastKnownName="elevator : Elevator"
+                    LastKnownLocation="ModelProj.uml" />
+                </coveredLifelines>
+                <guard>
+                  <interactionConstraint
+                    Id="989bc4ae-f46f-469b-848d-4a9a1d948678"
+                    guardText="if queue.Count &gt; 0" />
+                </guard>
+                <operandOccurrenceSpecifications>
+                  <operandOccurrenceSpecificationMoniker
+                    Id="70a3b488-6d26-4aac-8e64-dd1d12c4560b"
+                    LastKnownName="OperandOccurrenceSpecification1"
+                    LastKnownLocation="ModelProj.uml" />
+                  <operandOccurrenceSpecificationMoniker
+                    Id="9135556d-0e6a-4946-98a2-f8acb5c49b2f"
+                    LastKnownName="OperandOccurrenceSpecification2"
+                    LastKnownLocation="ModelProj.uml" />
+                  <operandOccurrenceSpecificationMoniker
+                    Id="1b9e16ce-a754-4830-8284-e20c5215b4d8"
+                    LastKnownName="OperandOccurrenceSpecification3"
+                    LastKnownLocation="ModelProj.uml" />
+                  <operandOccurrenceSpecificationMoniker
+                    Id="91e838d6-3037-4095-b790-8b1608ae9de2"
+                    LastKnownName="OperandOccurrenceSpecification4"
+                    LastKnownLocation="ModelProj.uml" />
+                  <operandOccurrenceSpecificationMoniker
+                    Id="446faa16-58de-47e9-9556-8ea7146b5208"
+                    LastKnownName="OperandOccurrenceSpecification9"
+                    LastKnownLocation="ModelProj.uml" />
+                  <operandOccurrenceSpecificationMoniker
+                    Id="c891772b-8c88-4861-bf65-3ad991acdb7a"
+                    LastKnownName="OperandOccurrenceSpecification10"
+                    LastKnownLocation="ModelProj.uml" />
+                </operandOccurrenceSpecifications>
+              </interactionOperand>
+              <interactionOperand
+                Id="e4fff75f-d8ca-44a2-9536-a3669d26ad42"
+                name="InteractionOperand2">
+                <coveredLifelines>
+                  <lifelineMoniker
+                    Id="98b57178-e5cb-46bd-adb7-ef8270d61bac"
+                    LastKnownName="elevatorStopQueue : ElevatorStopQueue"
+                    LastKnownLocation="ModelProj.uml" />
+                  <lifelineMoniker
+                    Id="2bc887e7-ac17-4d06-a29f-f9390d6b2de3"
+                    LastKnownName="elevatorController : ElevatorController"
+                    LastKnownLocation="ModelProj.uml" />
+                  <lifelineMoniker
+                    Id="290d7862-5554-429a-95c0-d2e9592b8530"
+                    LastKnownName="elevator : Elevator"
+                    LastKnownLocation="ModelProj.uml" />
+                </coveredLifelines>
+                <fragments>
+                  <combinedFragment
+                    Id="9907783b-599a-465c-a143-cd661f0c220c"
+                    name="CombinedFragment1"
+                    interactionOperator="Loop">
+                    <coveredLifelines>
+                      <lifelineMoniker
+                        Id="2bc887e7-ac17-4d06-a29f-f9390d6b2de3"
+                        LastKnownName="elevatorController : ElevatorController"
+                        LastKnownLocation="ModelProj.uml" />
+                      <lifelineMoniker
+                        Id="98b57178-e5cb-46bd-adb7-ef8270d61bac"
+                        LastKnownName="elevatorStopQueue : ElevatorStopQueue"
+                        LastKnownLocation="ModelProj.uml" />
+                      <lifelineMoniker
+                        Id="290d7862-5554-429a-95c0-d2e9592b8530"
+                        LastKnownName="elevator : Elevator"
+                        LastKnownLocation="ModelProj.uml" />
+                    </coveredLifelines>
+                    <operands>
+                      <interactionOperand
+                        Id="92a944dc-3b8e-4939-a5c5-f33a340722c5"
+                        name="InteractionOperand1">
+                        <coveredLifelines>
+                          <lifelineMoniker
+                            Id="2bc887e7-ac17-4d06-a29f-f9390d6b2de3"
+                            LastKnownName="elevatorController : ElevatorController"
+                            LastKnownLocation="ModelProj.uml" />
+                          <lifelineMoniker
+                            Id="98b57178-e5cb-46bd-adb7-ef8270d61bac"
+                            LastKnownName="elevatorStopQueue : ElevatorStopQueue"
+                            LastKnownLocation="ModelProj.uml" />
+                          <lifelineMoniker
+                            Id="290d7862-5554-429a-95c0-d2e9592b8530"
+                            LastKnownName="elevator : Elevator"
+                            LastKnownLocation="ModelProj.uml" />
+                        </coveredLifelines>
+                        <guard>
+                          <interactionConstraint
+                            Id="353eab6d-20a6-41d9-ab2d-1ce9839dc689"
+                            guardText="while queue.Count &gt; 0">
+                            <maxInt>
+                              <literalString
+                                Id="7efd27ce-4b1b-4c18-ad8c-2dcb90b8291e"
+                                name="LiteralString1" />
+                            </maxInt>
+                            <minInt>
+                              <literalString
+                                Id="20a5fb7e-cf83-4f87-bf2b-d6b82d681beb"
+                                name="LiteralString2" />
+                            </minInt>
+                          </interactionConstraint>
+                        </guard>
+                        <operandOccurrenceSpecifications>
+                          <operandOccurrenceSpecificationMoniker
+                            Id="16fb049c-97aa-470b-baa4-78b7e1cf6d4f"
+                            LastKnownName="OperandOccurrenceSpecification13"
+                            LastKnownLocation="ModelProj.uml" />
+                          <operandOccurrenceSpecificationMoniker
+                            Id="fa52607d-41b3-41c4-90d4-2fb55c5d38c1"
+                            LastKnownName="OperandOccurrenceSpecification14"
+                            LastKnownLocation="ModelProj.uml" />
+                          <operandOccurrenceSpecificationMoniker
+                            Id="551e9ebc-8ce6-4b33-96a7-5f9fd360e703"
+                            LastKnownName="OperandOccurrenceSpecification15"
+                            LastKnownLocation="ModelProj.uml" />
+                          <operandOccurrenceSpecificationMoniker
+                            Id="e21fbcfd-6452-47fd-96e8-24cc78ac444d"
+                            LastKnownName="OperandOccurrenceSpecification16"
+                            LastKnownLocation="ModelProj.uml" />
+                          <operandOccurrenceSpecificationMoniker
+                            Id="184212a8-d0ce-4540-9301-36ee0b9efd3e"
+                            LastKnownName="OperandOccurrenceSpecification17"
+                            LastKnownLocation="ModelProj.uml" />
+                          <operandOccurrenceSpecificationMoniker
+                            Id="1f4f0384-6b8a-43ca-9624-020073a33cc6"
+                            LastKnownName="OperandOccurrenceSpecification18"
+                            LastKnownLocation="ModelProj.uml" />
+                        </operandOccurrenceSpecifications>
+                      </interactionOperand>
+                    </operands>
+                  </combinedFragment>
+                </fragments>
+                <guard>
+                  <interactionConstraint
+                    Id="72e936c6-6807-4296-acae-ec31e9d33eac" />
+                </guard>
+                <operandOccurrenceSpecifications>
+                  <operandOccurrenceSpecificationMoniker
+                    Id="4fd88285-6945-457a-b804-e37baa84d230"
+                    LastKnownName="OperandOccurrenceSpecification5"
+                    LastKnownLocation="ModelProj.uml" />
+                  <operandOccurrenceSpecificationMoniker
+                    Id="92b095fd-1575-4fef-9af9-198dcc487b72"
+                    LastKnownName="OperandOccurrenceSpecification6"
+                    LastKnownLocation="ModelProj.uml" />
+                  <operandOccurrenceSpecificationMoniker
+                    Id="cd59d93b-9842-4188-a635-71108639bf4e"
+                    LastKnownName="OperandOccurrenceSpecification7"
+                    LastKnownLocation="ModelProj.uml" />
+                  <operandOccurrenceSpecificationMoniker
+                    Id="b398a9f3-bff6-4537-bb6f-d60d27f9cbc9"
+                    LastKnownName="OperandOccurrenceSpecification8"
+                    LastKnownLocation="ModelProj.uml" />
+                  <operandOccurrenceSpecificationMoniker
+                    Id="5da43e59-1387-478a-81dc-7c9e265185bc"
+                    LastKnownName="OperandOccurrenceSpecification11"
+                    LastKnownLocation="ModelProj.uml" />
+                  <operandOccurrenceSpecificationMoniker
+                    Id="3d28ed8a-75e2-4178-bc38-29b764ecffd5"
+                    LastKnownName="OperandOccurrenceSpecification12"
+                    LastKnownLocation="ModelProj.uml" />
+                </operandOccurrenceSpecifications>
+              </interactionOperand>
+            </operands>
+          </combinedFragment>
+          <operandOccurrenceSpecification
+            Id="446faa16-58de-47e9-9556-8ea7146b5208"
+            name="OperandOccurrenceSpecification9">
+            <covered>
+              <lifelineMoniker
+                Id="290d7862-5554-429a-95c0-d2e9592b8530"
+                LastKnownName="elevator : Elevator"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="1b9e16ce-a754-4830-8284-e20c5215b4d8"
+            name="OperandOccurrenceSpecification3">
+            <covered>
+              <lifelineMoniker
+                Id="2bc887e7-ac17-4d06-a29f-f9390d6b2de3"
+                LastKnownName="elevatorController : ElevatorController"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="70a3b488-6d26-4aac-8e64-dd1d12c4560b"
+            name="OperandOccurrenceSpecification1">
+            <covered>
+              <lifelineMoniker
+                Id="98b57178-e5cb-46bd-adb7-ef8270d61bac"
+                LastKnownName="elevatorStopQueue : ElevatorStopQueue"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="b70497c2-2984-4a80-9dbe-ccbc6a36a2f9"
+            name="BehaviorExecutionSpecification14">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="98b57178-e5cb-46bd-adb7-ef8270d61bac"
+                LastKnownName="elevatorStopQueue : ElevatorStopQueue"
+                LastKnownLocation="ModelProj.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="601202b9-b410-4168-a518-dbc78dcd7464"
+                LastKnownName="ExecutionOccurrenceSpecification28"
+                LastKnownLocation="ModelProj.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="a9f77454-e0e8-4552-84b8-ee754f079f5c"
+                LastKnownName="ExecutionOccurrenceSpecification27"
+                LastKnownLocation="ModelProj.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="127f07eb-1d15-40dd-965d-ac73b7317a6a"
+                LastKnownName="MessageOccurrenceSpecification48"
+                LastKnownLocation="ModelProj.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="88f7a4a1-26cd-44b2-9545-f950b8d5666e"
+                LastKnownName="MessageOccurrenceSpecification49"
+                LastKnownLocation="ModelProj.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="a9f77454-e0e8-4552-84b8-ee754f079f5c"
+            name="ExecutionOccurrenceSpecification27">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="cdc7dba5-cd37-4ddf-972a-5062b9cedc8e"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ModelProj.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="98b57178-e5cb-46bd-adb7-ef8270d61bac"
+                LastKnownName="elevatorStopQueue : ElevatorStopQueue"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="da50d464-f961-4752-b456-c1f6928b71ef"
+            name="MessageOccurrenceSpecification47">
+            <covered>
+              <lifelineMoniker
+                Id="2bc887e7-ac17-4d06-a29f-f9390d6b2de3"
+                LastKnownName="elevatorController : ElevatorController"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="127f07eb-1d15-40dd-965d-ac73b7317a6a"
+            name="MessageOccurrenceSpecification48">
+            <covered>
+              <lifelineMoniker
+                Id="98b57178-e5cb-46bd-adb7-ef8270d61bac"
+                LastKnownName="elevatorStopQueue : ElevatorStopQueue"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="88f7a4a1-26cd-44b2-9545-f950b8d5666e"
+            name="MessageOccurrenceSpecification49">
+            <covered>
+              <lifelineMoniker
+                Id="98b57178-e5cb-46bd-adb7-ef8270d61bac"
+                LastKnownName="elevatorStopQueue : ElevatorStopQueue"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="a1631d45-e1f8-4925-9d2c-e167c3aa5af0"
+            name="MessageOccurrenceSpecification50">
+            <covered>
+              <lifelineMoniker
+                Id="2bc887e7-ac17-4d06-a29f-f9390d6b2de3"
+                LastKnownName="elevatorController : ElevatorController"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="601202b9-b410-4168-a518-dbc78dcd7464"
+            name="ExecutionOccurrenceSpecification28">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="1b9b1f5d-821e-4ebc-895e-1f73c489936f"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ModelProj.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="98b57178-e5cb-46bd-adb7-ef8270d61bac"
+                LastKnownName="elevatorStopQueue : ElevatorStopQueue"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="91e838d6-3037-4095-b790-8b1608ae9de2"
+            name="OperandOccurrenceSpecification4">
+            <covered>
+              <lifelineMoniker
+                Id="2bc887e7-ac17-4d06-a29f-f9390d6b2de3"
+                LastKnownName="elevatorController : ElevatorController"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="9135556d-0e6a-4946-98a2-f8acb5c49b2f"
+            name="OperandOccurrenceSpecification2">
+            <covered>
+              <lifelineMoniker
+                Id="98b57178-e5cb-46bd-adb7-ef8270d61bac"
+                LastKnownName="elevatorStopQueue : ElevatorStopQueue"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="c891772b-8c88-4861-bf65-3ad991acdb7a"
+            name="OperandOccurrenceSpecification10">
+            <covered>
+              <lifelineMoniker
+                Id="290d7862-5554-429a-95c0-d2e9592b8530"
+                LastKnownName="elevator : Elevator"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="4fd88285-6945-457a-b804-e37baa84d230"
+            name="OperandOccurrenceSpecification5">
+            <covered>
+              <lifelineMoniker
+                Id="98b57178-e5cb-46bd-adb7-ef8270d61bac"
+                LastKnownName="elevatorStopQueue : ElevatorStopQueue"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="cd59d93b-9842-4188-a635-71108639bf4e"
+            name="OperandOccurrenceSpecification7">
+            <covered>
+              <lifelineMoniker
+                Id="2bc887e7-ac17-4d06-a29f-f9390d6b2de3"
+                LastKnownName="elevatorController : ElevatorController"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="5da43e59-1387-478a-81dc-7c9e265185bc"
+            name="OperandOccurrenceSpecification11">
+            <covered>
+              <lifelineMoniker
+                Id="290d7862-5554-429a-95c0-d2e9592b8530"
+                LastKnownName="elevator : Elevator"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="7ef1dd13-90b3-41ff-8c99-ce64271dc9e6"
+            name="BehaviorExecutionSpecification14">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="98b57178-e5cb-46bd-adb7-ef8270d61bac"
+                LastKnownName="elevatorStopQueue : ElevatorStopQueue"
+                LastKnownLocation="ModelProj.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="1389b27e-1a81-41b6-8a2e-d630186c6e9f"
+                LastKnownName="ExecutionOccurrenceSpecification28"
+                LastKnownLocation="ModelProj.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="0bc931ef-ad9e-48f3-b4f5-4c1cf7ebd45f"
+                LastKnownName="ExecutionOccurrenceSpecification27"
+                LastKnownLocation="ModelProj.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="365c3bca-5e12-49ee-8f7e-1cf82dd1cc04"
+                LastKnownName="MessageOccurrenceSpecification48"
+                LastKnownLocation="ModelProj.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="71405753-3572-4162-8aca-a28ce695208f"
+                LastKnownName="MessageOccurrenceSpecification49"
+                LastKnownLocation="ModelProj.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="0bc931ef-ad9e-48f3-b4f5-4c1cf7ebd45f"
+            name="ExecutionOccurrenceSpecification27">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="ce675563-4326-4683-99ad-86f1f505233f"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ModelProj.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="98b57178-e5cb-46bd-adb7-ef8270d61bac"
+                LastKnownName="elevatorStopQueue : ElevatorStopQueue"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="365c3bca-5e12-49ee-8f7e-1cf82dd1cc04"
+            name="MessageOccurrenceSpecification48">
+            <covered>
+              <lifelineMoniker
+                Id="98b57178-e5cb-46bd-adb7-ef8270d61bac"
+                LastKnownName="elevatorStopQueue : ElevatorStopQueue"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="c71e49f8-870e-4cd9-a825-ecebcccd0b42"
+            name="MessageOccurrenceSpecification47">
+            <covered>
+              <lifelineMoniker
+                Id="2bc887e7-ac17-4d06-a29f-f9390d6b2de3"
+                LastKnownName="elevatorController : ElevatorController"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="df995feb-5b5f-4f5c-b94b-90f8bda5388f"
+            name="MessageOccurrenceSpecification50">
+            <covered>
+              <lifelineMoniker
+                Id="2bc887e7-ac17-4d06-a29f-f9390d6b2de3"
+                LastKnownName="elevatorController : ElevatorController"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="71405753-3572-4162-8aca-a28ce695208f"
+            name="MessageOccurrenceSpecification49">
+            <covered>
+              <lifelineMoniker
+                Id="98b57178-e5cb-46bd-adb7-ef8270d61bac"
+                LastKnownName="elevatorStopQueue : ElevatorStopQueue"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="1389b27e-1a81-41b6-8a2e-d630186c6e9f"
+            name="ExecutionOccurrenceSpecification28">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="415298a8-6073-442d-b9ff-c9baed6997d8"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ModelProj.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="98b57178-e5cb-46bd-adb7-ef8270d61bac"
+                LastKnownName="elevatorStopQueue : ElevatorStopQueue"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="551e9ebc-8ce6-4b33-96a7-5f9fd360e703"
+            name="OperandOccurrenceSpecification15">
+            <covered>
+              <lifelineMoniker
+                Id="98b57178-e5cb-46bd-adb7-ef8270d61bac"
+                LastKnownName="elevatorStopQueue : ElevatorStopQueue"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="184212a8-d0ce-4540-9301-36ee0b9efd3e"
+            name="OperandOccurrenceSpecification17">
+            <covered>
+              <lifelineMoniker
+                Id="290d7862-5554-429a-95c0-d2e9592b8530"
+                LastKnownName="elevator : Elevator"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="16fb049c-97aa-470b-baa4-78b7e1cf6d4f"
+            name="OperandOccurrenceSpecification13">
+            <covered>
+              <lifelineMoniker
+                Id="2bc887e7-ac17-4d06-a29f-f9390d6b2de3"
+                LastKnownName="elevatorController : ElevatorController"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="9db1fc1c-e090-4e3e-a944-08126fe200c5"
+            name="MessageOccurrenceSpecification73">
+            <covered>
+              <lifelineMoniker
+                Id="2bc887e7-ac17-4d06-a29f-f9390d6b2de3"
+                LastKnownName="elevatorController : ElevatorController"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="a751c2f5-4dc5-42ca-8f32-419a4065682c"
+            name="BehaviorExecutionSpecification22">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="2bc887e7-ac17-4d06-a29f-f9390d6b2de3"
+                LastKnownName="elevatorController : ElevatorController"
+                LastKnownLocation="ModelProj.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="2bd637d3-3002-41b4-9c0b-2285a411be58"
+                LastKnownName="ExecutionOccurrenceSpecification44"
+                LastKnownLocation="ModelProj.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="c629074b-550b-48a2-9220-35165e96ce68"
+                LastKnownName="ExecutionOccurrenceSpecification43"
+                LastKnownLocation="ModelProj.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="e989e5af-fee3-4bac-8127-c9186bda8436"
+                LastKnownName="MessageOccurrenceSpecification74"
+                LastKnownLocation="ModelProj.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="93fa464f-7f2e-4af5-b375-79fc780c3841"
+                LastKnownName="MessageOccurrenceSpecification87"
+                LastKnownLocation="ModelProj.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="24df5ebd-0d9b-4ab1-8ac2-eee288d826e6"
+                LastKnownName="MessageOccurrenceSpecification90"
+                LastKnownLocation="ModelProj.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="7c2dd125-2c83-4942-96a1-05b739422cc5"
+                LastKnownName="MessageOccurrenceSpecification91"
+                LastKnownLocation="ModelProj.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="12e5dd52-83b1-4d10-8111-55c3fb0b15c1"
+                LastKnownName="MessageOccurrenceSpecification94"
+                LastKnownLocation="ModelProj.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="c629074b-550b-48a2-9220-35165e96ce68"
+            name="ExecutionOccurrenceSpecification43">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="332ab9da-9dd4-4681-9297-25f7687f0374"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ModelProj.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="2bc887e7-ac17-4d06-a29f-f9390d6b2de3"
+                LastKnownName="elevatorController : ElevatorController"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="e989e5af-fee3-4bac-8127-c9186bda8436"
+            name="MessageOccurrenceSpecification74">
+            <covered>
+              <lifelineMoniker
+                Id="2bc887e7-ac17-4d06-a29f-f9390d6b2de3"
+                LastKnownName="elevatorController : ElevatorController"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="2fb4fa29-fa42-499f-8c31-bae9552e0d14"
+            name="BehaviorExecutionSpecification26">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="98b57178-e5cb-46bd-adb7-ef8270d61bac"
+                LastKnownName="elevatorStopQueue : ElevatorStopQueue"
+                LastKnownLocation="ModelProj.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="4b51b0c1-758b-4d35-86f6-1795aa7c8b06"
+                LastKnownName="ExecutionOccurrenceSpecification52"
+                LastKnownLocation="ModelProj.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="c6c65c6e-9496-48f4-9803-cf6fea17d8e7"
+                LastKnownName="ExecutionOccurrenceSpecification51"
+                LastKnownLocation="ModelProj.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="cf9cb2e5-1a67-48b4-b994-8390f2dd560c"
+                LastKnownName="MessageOccurrenceSpecification88"
+                LastKnownLocation="ModelProj.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="f46396d1-b3ad-4cd2-80d7-66ac29b8d2c6"
+                LastKnownName="MessageOccurrenceSpecification89"
+                LastKnownLocation="ModelProj.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="c6c65c6e-9496-48f4-9803-cf6fea17d8e7"
+            name="ExecutionOccurrenceSpecification51">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="5cf218b7-6b2e-4567-9c0f-b1d6ff5791ca"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ModelProj.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="98b57178-e5cb-46bd-adb7-ef8270d61bac"
+                LastKnownName="elevatorStopQueue : ElevatorStopQueue"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="cf9cb2e5-1a67-48b4-b994-8390f2dd560c"
+            name="MessageOccurrenceSpecification88">
+            <covered>
+              <lifelineMoniker
+                Id="98b57178-e5cb-46bd-adb7-ef8270d61bac"
+                LastKnownName="elevatorStopQueue : ElevatorStopQueue"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="93fa464f-7f2e-4af5-b375-79fc780c3841"
+            name="MessageOccurrenceSpecification87">
+            <covered>
+              <lifelineMoniker
+                Id="2bc887e7-ac17-4d06-a29f-f9390d6b2de3"
+                LastKnownName="elevatorController : ElevatorController"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="24df5ebd-0d9b-4ab1-8ac2-eee288d826e6"
+            name="MessageOccurrenceSpecification90">
+            <covered>
+              <lifelineMoniker
+                Id="2bc887e7-ac17-4d06-a29f-f9390d6b2de3"
+                LastKnownName="elevatorController : ElevatorController"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="f46396d1-b3ad-4cd2-80d7-66ac29b8d2c6"
+            name="MessageOccurrenceSpecification89">
+            <covered>
+              <lifelineMoniker
+                Id="98b57178-e5cb-46bd-adb7-ef8270d61bac"
+                LastKnownName="elevatorStopQueue : ElevatorStopQueue"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="4b51b0c1-758b-4d35-86f6-1795aa7c8b06"
+            name="ExecutionOccurrenceSpecification52">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="98c7ce8f-8468-4ed3-994e-366499e69cb1"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ModelProj.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="98b57178-e5cb-46bd-adb7-ef8270d61bac"
+                LastKnownName="elevatorStopQueue : ElevatorStopQueue"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="b89db0b4-4ba7-446b-a92b-5544db28c02d"
+            name="BehaviorExecutionSpecification27">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="290d7862-5554-429a-95c0-d2e9592b8530"
+                LastKnownName="elevator : Elevator"
+                LastKnownLocation="ModelProj.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="138a0835-86e5-47be-a2af-0030e9e44c3f"
+                LastKnownName="ExecutionOccurrenceSpecification54"
+                LastKnownLocation="ModelProj.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="8031df49-c102-4ee0-a11f-f7e32c334f9f"
+                LastKnownName="ExecutionOccurrenceSpecification53"
+                LastKnownLocation="ModelProj.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="c09f9665-5ac0-45d0-8aac-77af1374027d"
+                LastKnownName="MessageOccurrenceSpecification92"
+                LastKnownLocation="ModelProj.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="f05d1d57-d5a4-4d5a-af77-ac4e282adbeb"
+                LastKnownName="MessageOccurrenceSpecification93"
+                LastKnownLocation="ModelProj.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="8031df49-c102-4ee0-a11f-f7e32c334f9f"
+            name="ExecutionOccurrenceSpecification53">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="ce8bad98-e7d4-4bfd-ae83-a3dfdd97db7e"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ModelProj.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="290d7862-5554-429a-95c0-d2e9592b8530"
+                LastKnownName="elevator : Elevator"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="c09f9665-5ac0-45d0-8aac-77af1374027d"
+            name="MessageOccurrenceSpecification92">
+            <covered>
+              <lifelineMoniker
+                Id="290d7862-5554-429a-95c0-d2e9592b8530"
+                LastKnownName="elevator : Elevator"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="7c2dd125-2c83-4942-96a1-05b739422cc5"
+            name="MessageOccurrenceSpecification91">
+            <covered>
+              <lifelineMoniker
+                Id="2bc887e7-ac17-4d06-a29f-f9390d6b2de3"
+                LastKnownName="elevatorController : ElevatorController"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="12e5dd52-83b1-4d10-8111-55c3fb0b15c1"
+            name="MessageOccurrenceSpecification94">
+            <covered>
+              <lifelineMoniker
+                Id="2bc887e7-ac17-4d06-a29f-f9390d6b2de3"
+                LastKnownName="elevatorController : ElevatorController"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="f05d1d57-d5a4-4d5a-af77-ac4e282adbeb"
+            name="MessageOccurrenceSpecification93">
+            <covered>
+              <lifelineMoniker
+                Id="290d7862-5554-429a-95c0-d2e9592b8530"
+                LastKnownName="elevator : Elevator"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="138a0835-86e5-47be-a2af-0030e9e44c3f"
+            name="ExecutionOccurrenceSpecification54">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="0c664e66-5283-471f-9210-b3a2eb91b713"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ModelProj.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="290d7862-5554-429a-95c0-d2e9592b8530"
+                LastKnownName="elevator : Elevator"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="2bd637d3-3002-41b4-9c0b-2285a411be58"
+            name="ExecutionOccurrenceSpecification44">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="86f442c6-302c-4f6c-b99c-0fe8ebdf855b"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ModelProj.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="2bc887e7-ac17-4d06-a29f-f9390d6b2de3"
+                LastKnownName="elevatorController : ElevatorController"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="fa52607d-41b3-41c4-90d4-2fb55c5d38c1"
+            name="OperandOccurrenceSpecification14">
+            <covered>
+              <lifelineMoniker
+                Id="2bc887e7-ac17-4d06-a29f-f9390d6b2de3"
+                LastKnownName="elevatorController : ElevatorController"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="e21fbcfd-6452-47fd-96e8-24cc78ac444d"
+            name="OperandOccurrenceSpecification16">
+            <covered>
+              <lifelineMoniker
+                Id="98b57178-e5cb-46bd-adb7-ef8270d61bac"
+                LastKnownName="elevatorStopQueue : ElevatorStopQueue"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="1f4f0384-6b8a-43ca-9624-020073a33cc6"
+            name="OperandOccurrenceSpecification18">
+            <covered>
+              <lifelineMoniker
+                Id="290d7862-5554-429a-95c0-d2e9592b8530"
+                LastKnownName="elevator : Elevator"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="3d28ed8a-75e2-4178-bc38-29b764ecffd5"
+            name="OperandOccurrenceSpecification12">
+            <covered>
+              <lifelineMoniker
+                Id="290d7862-5554-429a-95c0-d2e9592b8530"
+                LastKnownName="elevator : Elevator"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="b398a9f3-bff6-4537-bb6f-d60d27f9cbc9"
+            name="OperandOccurrenceSpecification8">
+            <covered>
+              <lifelineMoniker
+                Id="2bc887e7-ac17-4d06-a29f-f9390d6b2de3"
+                LastKnownName="elevatorController : ElevatorController"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="92b095fd-1575-4fef-9af9-198dcc487b72"
+            name="OperandOccurrenceSpecification6">
+            <covered>
+              <lifelineMoniker
+                Id="98b57178-e5cb-46bd-adb7-ef8270d61bac"
+                LastKnownName="elevatorStopQueue : ElevatorStopQueue"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="cbc24f19-b3de-4e58-b03e-7e9e921cfc9f"
+            name="MessageOccurrenceSpecification26">
+            <covered>
+              <lifelineMoniker
+                Id="f7f9d781-161a-4186-a7f5-c0fa034c1e6b"
+                LastKnownName="floorButtonPanel : FloorButtonPanel"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="8da48406-a109-493f-9411-9e5c602ba30b"
+            name="MessageOccurrenceSpecification25">
+            <covered>
+              <lifelineMoniker
+                Id="2bc887e7-ac17-4d06-a29f-f9390d6b2de3"
+                LastKnownName="elevatorController : ElevatorController"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="4c6d8d55-cdc1-4acb-855c-0f448358b595"
+            name="ExecutionOccurrenceSpecification16">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="d8b985f7-ef37-458c-a794-a9a0e2b07634"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ModelProj.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="2bc887e7-ac17-4d06-a29f-f9390d6b2de3"
+                LastKnownName="elevatorController : ElevatorController"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="233f4956-f0b5-4d62-9564-770d49c2c187"
+            name="MessageOccurrenceSpecification22">
+            <covered>
+              <lifelineMoniker
+                Id="09f64176-15c1-4adf-bdc1-6807efe35135"
+                LastKnownName="elevatorBank : ElevatorBank"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="af66e04a-9c0f-4f3f-9833-7f83ccb4746e"
+            name="MessageOccurrenceSpecification21">
+            <covered>
+              <lifelineMoniker
+                Id="f7f9d781-161a-4186-a7f5-c0fa034c1e6b"
+                LastKnownName="floorButtonPanel : FloorButtonPanel"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="88ddda99-0663-4126-9fa8-6e69e9e1fdef"
+            name="ExecutionOccurrenceSpecification14">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="76d80f4a-01a4-4d3f-9deb-d6b6aecee25e"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ModelProj.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="f7f9d781-161a-4186-a7f5-c0fa034c1e6b"
+                LastKnownName="floorButtonPanel : FloorButtonPanel"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline
+            Id="09f64176-15c1-4adf-bdc1-6807efe35135"
+            name="elevatorBank : ElevatorBank"
+            isActor="false"
+            lifelineDisplayName="elevatorBank : ElevatorBank">
+            <represents>
+              <propertyMoniker
+                Id="f42b2e7e-9147-4048-be7f-a2edb3d8bbe5"
+                LastKnownLocation="ModelProj.uml" />
+            </represents>
+            <topLevelOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="b9145a14-85c6-4d7f-87bb-8d6eceb26dbd"
+                LastKnownName="MessageOccurrenceSpecification19"
+                LastKnownLocation="ModelProj.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="233f4956-f0b5-4d62-9564-770d49c2c187"
+                LastKnownName="MessageOccurrenceSpecification22"
+                LastKnownLocation="ModelProj.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="f7f9d781-161a-4186-a7f5-c0fa034c1e6b"
+            name="floorButtonPanel : FloorButtonPanel"
+            isActor="false"
+            lifelineDisplayName="floorButtonPanel : FloorButtonPanel">
+            <represents>
+              <propertyMoniker
+                Id="25081aae-3791-4123-9793-2b4b5f8a4d4e"
+                LastKnownLocation="ModelProj.uml" />
+            </represents>
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="a6899e03-c7df-4ce1-81e6-0240b73b1c74"
+                LastKnownName="ExecutionOccurrenceSpecification13"
+                LastKnownLocation="ModelProj.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="88ddda99-0663-4126-9fa8-6e69e9e1fdef"
+                LastKnownName="ExecutionOccurrenceSpecification14"
+                LastKnownLocation="ModelProj.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="2bc887e7-ac17-4d06-a29f-f9390d6b2de3"
+            name="elevatorController : ElevatorController"
+            isActor="false"
+            lifelineDisplayName="elevatorController : ElevatorController">
+            <represents>
+              <propertyMoniker
+                Id="17c973a9-55c2-48e1-a2f7-8ff79deeb50c"
+                LastKnownLocation="ModelProj.uml" />
+            </represents>
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="e41fea5d-e272-490d-9ed3-911b745cd56c"
+                LastKnownName="ExecutionOccurrenceSpecification15"
+                LastKnownLocation="ModelProj.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="4c6d8d55-cdc1-4acb-855c-0f448358b595"
+                LastKnownName="ExecutionOccurrenceSpecification16"
+                LastKnownLocation="ModelProj.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="10da9f6a-4f6e-4ebb-9fda-9b1c1ce7b327"
+            name="dispatchCalculator : DispatchCalculator"
+            isActor="false"
+            lifelineDisplayName="dispatchCalculator : DispatchCalculator">
+            <represents>
+              <propertyMoniker
+                Id="030efe5a-a197-4f26-be1c-1b0602e021ea"
+                LastKnownLocation="ModelProj.uml" />
+            </represents>
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="87041b3f-6b3a-408f-adc7-49a0d47c4ca6"
+                LastKnownName="ExecutionOccurrenceSpecification25"
+                LastKnownLocation="ModelProj.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="6534e710-cee8-449b-ad4d-5eb22ae684f9"
+                LastKnownName="ExecutionOccurrenceSpecification26"
+                LastKnownLocation="ModelProj.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="98b57178-e5cb-46bd-adb7-ef8270d61bac"
+            name="elevatorStopQueue : ElevatorStopQueue"
+            isActor="false"
+            lifelineDisplayName="elevatorStopQueue : ElevatorStopQueue">
+            <represents>
+              <propertyMoniker
+                Id="a7a2c2ad-c5bf-4f33-a71d-e0bbdc6b84ba"
+                LastKnownLocation="ModelProj.uml" />
+            </represents>
+            <topLevelOccurrences>
+              <operandOccurrenceSpecificationMoniker
+                Id="70a3b488-6d26-4aac-8e64-dd1d12c4560b"
+                LastKnownName="OperandOccurrenceSpecification1"
+                LastKnownLocation="ModelProj.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="a9f77454-e0e8-4552-84b8-ee754f079f5c"
+                LastKnownName="ExecutionOccurrenceSpecification27"
+                LastKnownLocation="ModelProj.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="601202b9-b410-4168-a518-dbc78dcd7464"
+                LastKnownName="ExecutionOccurrenceSpecification28"
+                LastKnownLocation="ModelProj.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="9135556d-0e6a-4946-98a2-f8acb5c49b2f"
+                LastKnownName="OperandOccurrenceSpecification2"
+                LastKnownLocation="ModelProj.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="4fd88285-6945-457a-b804-e37baa84d230"
+                LastKnownName="OperandOccurrenceSpecification5"
+                LastKnownLocation="ModelProj.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="0bc931ef-ad9e-48f3-b4f5-4c1cf7ebd45f"
+                LastKnownName="ExecutionOccurrenceSpecification27"
+                LastKnownLocation="ModelProj.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="1389b27e-1a81-41b6-8a2e-d630186c6e9f"
+                LastKnownName="ExecutionOccurrenceSpecification28"
+                LastKnownLocation="ModelProj.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="551e9ebc-8ce6-4b33-96a7-5f9fd360e703"
+                LastKnownName="OperandOccurrenceSpecification15"
+                LastKnownLocation="ModelProj.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="c6c65c6e-9496-48f4-9803-cf6fea17d8e7"
+                LastKnownName="ExecutionOccurrenceSpecification51"
+                LastKnownLocation="ModelProj.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="4b51b0c1-758b-4d35-86f6-1795aa7c8b06"
+                LastKnownName="ExecutionOccurrenceSpecification52"
+                LastKnownLocation="ModelProj.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="e21fbcfd-6452-47fd-96e8-24cc78ac444d"
+                LastKnownName="OperandOccurrenceSpecification16"
+                LastKnownLocation="ModelProj.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="92b095fd-1575-4fef-9af9-198dcc487b72"
+                LastKnownName="OperandOccurrenceSpecification6"
+                LastKnownLocation="ModelProj.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="290d7862-5554-429a-95c0-d2e9592b8530"
+            name="elevator : Elevator"
+            isActor="false"
+            lifelineDisplayName="elevator : Elevator">
+            <represents>
+              <propertyMoniker
+                Id="292ce965-6c52-4ce5-b8ee-e2e1f7a1ac6e"
+                LastKnownLocation="ModelProj.uml" />
+            </represents>
+            <topLevelOccurrences>
+              <operandOccurrenceSpecificationMoniker
+                Id="446faa16-58de-47e9-9556-8ea7146b5208"
+                LastKnownName="OperandOccurrenceSpecification9"
+                LastKnownLocation="ModelProj.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="c891772b-8c88-4861-bf65-3ad991acdb7a"
+                LastKnownName="OperandOccurrenceSpecification10"
+                LastKnownLocation="ModelProj.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="5da43e59-1387-478a-81dc-7c9e265185bc"
+                LastKnownName="OperandOccurrenceSpecification11"
+                LastKnownLocation="ModelProj.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="184212a8-d0ce-4540-9301-36ee0b9efd3e"
+                LastKnownName="OperandOccurrenceSpecification17"
+                LastKnownLocation="ModelProj.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="8031df49-c102-4ee0-a11f-f7e32c334f9f"
+                LastKnownName="ExecutionOccurrenceSpecification53"
+                LastKnownLocation="ModelProj.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="138a0835-86e5-47be-a2af-0030e9e44c3f"
+                LastKnownName="ExecutionOccurrenceSpecification54"
+                LastKnownLocation="ModelProj.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="1f4f0384-6b8a-43ca-9624-020073a33cc6"
+                LastKnownName="OperandOccurrenceSpecification18"
+                LastKnownLocation="ModelProj.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="3d28ed8a-75e2-4178-bc38-29b764ecffd5"
+                LastKnownName="OperandOccurrenceSpecification12"
+                LastKnownLocation="ModelProj.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message
+            Id="56964df7-823a-449b-81a5-a327979bc934"
+            name="CallElevatorToFloorFromHallway(floor, direction)"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="b9145a14-85c6-4d7f-87bb-8d6eceb26dbd"
+                LastKnownName="MessageOccurrenceSpecification19"
+                LastKnownLocation="ModelProj.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="191f721f-32a0-48a6-ae9e-4061cca2cf0a"
+                LastKnownName="MessageOccurrenceSpecification20"
+                LastKnownLocation="ModelProj.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="b61755f9-7167-4815-bc64-bde2619bbd29"
+            name="NotifyControllerRequestElevator(direction)"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="f1d55942-0548-4ee1-bd3f-46f69f0e6dc3"
+                LastKnownName="MessageOccurrenceSpecification23"
+                LastKnownLocation="ModelProj.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="4ce062ff-9b03-42d7-a342-37dccb1c31ca"
+                LastKnownName="MessageOccurrenceSpecification24"
+                LastKnownLocation="ModelProj.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="810dfc5d-465e-42bc-adcd-5c6e1ec6b684"
+            name="CalculateDispatchRequests(dispatchRequest)"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="4edc748d-4aea-4d6b-a122-269983c83f55"
+                LastKnownName="MessageOccurrenceSpecification43"
+                LastKnownLocation="ModelProj.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="151b811a-fcb3-4a45-b27b-15f27910b443"
+                LastKnownName="MessageOccurrenceSpecification44"
+                LastKnownLocation="ModelProj.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="0fd78c26-964a-438e-99d5-f6399ad148b6"
+            name="DispatchedElevatorPositionID"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="d3f728f3-1962-4daa-b677-2dc06e4ca5e3"
+                LastKnownName="MessageOccurrenceSpecification45"
+                LastKnownLocation="ModelProj.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="b084b77f-c36c-42a5-9d64-73dd64802dc0"
+                LastKnownName="MessageOccurrenceSpecification46"
+                LastKnownLocation="ModelProj.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="7e6cacf0-b4dc-43f5-81be-c2f3360eb9e1"
+            name="InsertStop(requestedFloor, directionToNextStop, dr.DispatchedElevatorPositionID)"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="da50d464-f961-4752-b456-c1f6928b71ef"
+                LastKnownName="MessageOccurrenceSpecification47"
+                LastKnownLocation="ModelProj.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="127f07eb-1d15-40dd-965d-ac73b7317a6a"
+                LastKnownName="MessageOccurrenceSpecification48"
+                LastKnownLocation="ModelProj.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="a1d9c31c-ecd9-420d-b316-c4ac2958e77b"
+            name="void"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="88f7a4a1-26cd-44b2-9545-f950b8d5666e"
+                LastKnownName="MessageOccurrenceSpecification49"
+                LastKnownLocation="ModelProj.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="a1631d45-e1f8-4925-9d2c-e167c3aa5af0"
+                LastKnownName="MessageOccurrenceSpecification50"
+                LastKnownLocation="ModelProj.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="76152b8f-d68f-45c4-8ccd-8dd208b9a4c1"
+            name="InsertStop(requestedFloor, directionToNextStop, dr.DispatchedElevatorPositionID)"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="c71e49f8-870e-4cd9-a825-ecebcccd0b42"
+                LastKnownName="MessageOccurrenceSpecification47"
+                LastKnownLocation="ModelProj.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="365c3bca-5e12-49ee-8f7e-1cf82dd1cc04"
+                LastKnownName="MessageOccurrenceSpecification48"
+                LastKnownLocation="ModelProj.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="8dea4942-c173-476e-8644-34f8da887bf9"
+            name="void"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="71405753-3572-4162-8aca-a28ce695208f"
+                LastKnownName="MessageOccurrenceSpecification49"
+                LastKnownLocation="ModelProj.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="df995feb-5b5f-4f5c-b94b-90f8bda5388f"
+                LastKnownName="MessageOccurrenceSpecification50"
+                LastKnownLocation="ModelProj.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="2cd33a4c-f51d-4b26-8c09-5b57a31bf503"
+            name="BeginRoute"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="true">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="9db1fc1c-e090-4e3e-a944-08126fe200c5"
+                LastKnownName="MessageOccurrenceSpecification73"
+                LastKnownLocation="ModelProj.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="e989e5af-fee3-4bac-8127-c9186bda8436"
+                LastKnownName="MessageOccurrenceSpecification74"
+                LastKnownLocation="ModelProj.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="9e1516a8-a5dd-44fe-a617-bb00bd973830"
+            name="Dequeue(elevatorID)"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="93fa464f-7f2e-4af5-b375-79fc780c3841"
+                LastKnownName="MessageOccurrenceSpecification87"
+                LastKnownLocation="ModelProj.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="cf9cb2e5-1a67-48b4-b994-8390f2dd560c"
+                LastKnownName="MessageOccurrenceSpecification88"
+                LastKnownLocation="ModelProj.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="b05e564a-c5a1-4fb2-9fea-7479b1013f78"
+            name="destination"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="f46396d1-b3ad-4cd2-80d7-66ac29b8d2c6"
+                LastKnownName="MessageOccurrenceSpecification89"
+                LastKnownLocation="ModelProj.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="24df5ebd-0d9b-4ab1-8ac2-eee288d826e6"
+                LastKnownName="MessageOccurrenceSpecification90"
+                LastKnownLocation="ModelProj.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="5f58c877-c8ad-4a16-8c79-cb62cd24b888"
+            name=" elevator.Move(destination - currentFloor)"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="7c2dd125-2c83-4942-96a1-05b739422cc5"
+                LastKnownName="MessageOccurrenceSpecification91"
+                LastKnownLocation="ModelProj.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="c09f9665-5ac0-45d0-8aac-77af1374027d"
+                LastKnownName="MessageOccurrenceSpecification92"
+                LastKnownLocation="ModelProj.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="2394bd98-9fe5-4293-83b7-7b6e11e90c2c"
+            name="void"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="f05d1d57-d5a4-4d5a-af77-ac4e282adbeb"
+                LastKnownName="MessageOccurrenceSpecification93"
+                LastKnownLocation="ModelProj.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="12e5dd52-83b1-4d10-8111-55c3fb0b15c1"
+                LastKnownName="MessageOccurrenceSpecification94"
+                LastKnownLocation="ModelProj.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="4b438a43-e6ba-4e03-a2b7-fca4a634eedb"
+            name="void"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="8da48406-a109-493f-9411-9e5c602ba30b"
+                LastKnownName="MessageOccurrenceSpecification25"
+                LastKnownLocation="ModelProj.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="cbc24f19-b3de-4e58-b03e-7e9e921cfc9f"
+                LastKnownName="MessageOccurrenceSpecification26"
+                LastKnownLocation="ModelProj.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="0ff3e5a0-f425-481a-9b72-c4b73bdabe3b"
+            name="void"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="af66e04a-9c0f-4f3f-9833-7f83ccb4746e"
+                LastKnownName="MessageOccurrenceSpecification21"
+                LastKnownLocation="ModelProj.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="233f4956-f0b5-4d62-9564-770d49c2c187"
+                LastKnownName="MessageOccurrenceSpecification22"
+                LastKnownLocation="ModelProj.uml" />
+            </receiveEvent>
+          </message>
+        </messages>
+        <ownedAttributesInternal>
+          <property
+            Id="f42b2e7e-9147-4048-be7f-a2edb3d8bbe5"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <classMoniker
+                Id="4956718c-1ca1-40e1-a49a-3c0297f85e41"
+                LastKnownName="ElevatorBank"
+                LastKnownLocation="Package1_1537.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="25081aae-3791-4123-9793-2b4b5f8a4d4e"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <classMoniker
+                Id="b0f25f96-f47a-49be-8af5-e407a03678ea"
+                LastKnownName="FloorButtonPanel"
+                LastKnownLocation="Package1_1537.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="17c973a9-55c2-48e1-a2f7-8ff79deeb50c"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <classMoniker
+                Id="ae23dd8a-b37e-44b9-9f44-8a5743014112"
+                LastKnownName="ElevatorController"
+                LastKnownLocation="Package1_1537.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="030efe5a-a197-4f26-be1c-1b0602e021ea"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <classMoniker
+                Id="71a9b08f-2d67-4f88-a60b-e5ab946b81fe"
+                LastKnownName="DispatchCalculator"
+                LastKnownLocation="Package1_1537.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="a7a2c2ad-c5bf-4f33-a71d-e0bbdc6b84ba"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <classMoniker
+                Id="c8959397-72fc-4c4c-be9a-f60ffa37ee10"
+                LastKnownName="ElevatorStopQueue"
+                LastKnownLocation="Package1_1537.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="292ce965-6c52-4ce5-b8ee-e2e1f7a1ac6e"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <classMoniker
+                Id="ee4bf761-7276-4a7a-97cb-abe61f24560a"
+                LastKnownName="Elevator"
+                LastKnownLocation="Package1_1537.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="37b77499-ca1f-4698-abd6-6df0064b3eb1"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <classMoniker
+                Id="3c9f94bb-b6bf-4bab-a610-3e5e8598f690"
+                LastKnownName="DispatchRequest"
+                LastKnownLocation="Package1_1537.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="8741c235-a670-4f97-a753-8f20d9fcdc44"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="76d80f4a-01a4-4d3f-9deb-d6b6aecee25e"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="6667b1bd-2f8a-486e-8e2e-acc8cabe028f"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="d8b985f7-ef37-458c-a794-a9a0e2b07634"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="a4d36776-3a91-46c4-9581-771cc6f764c2"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="0a0590ec-d0d4-467d-9c3c-e270b523d8ac"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="cdc7dba5-cd37-4ddf-972a-5062b9cedc8e"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="1b9b1f5d-821e-4ebc-895e-1f73c489936f"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <interaction
+        Id="14e80476-ee20-4297-ab35-03a65a4c059e"
+        name="SendElevator"
+        collapseFragmentsFlag="false"
+        isActiveClass="false"
+        isAbstract="false"
+        isLeaf="false"
+        isReentrant="false">
+        <fragments>
+          <behaviorExecutionSpecification
+            Id="2a5a09a5-c20c-44b7-a7b6-bf39b3e349b9"
+            name="BehaviorExecutionSpecification1">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="f85411b1-7236-4a43-9879-ec3f4eec3d8c"
+                LastKnownName="elevatorButtonPanel : ElevatorButtonPanel"
+                LastKnownLocation="ModelProj.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="06aeae9f-c48d-482b-b027-6f516aa0b636"
+                LastKnownName="ExecutionOccurrenceSpecification2"
+                LastKnownLocation="ModelProj.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="1a9491c0-472b-437b-a7a1-fb9a33001e35"
+                LastKnownName="ExecutionOccurrenceSpecification1"
+                LastKnownLocation="ModelProj.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="ae006976-389e-4aa8-9bea-6a500bc286c2"
+                LastKnownName="MessageOccurrenceSpecification2"
+                LastKnownLocation="ModelProj.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="d4df559f-28e6-4619-962f-8cbac4b553cc"
+                LastKnownName="MessageOccurrenceSpecification5"
+                LastKnownLocation="ModelProj.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="ce6212f4-7cd7-4e8a-a299-e4630c193e02"
+                LastKnownName="MessageOccurrenceSpecification8"
+                LastKnownLocation="ModelProj.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="661446c0-b6f9-4fdb-a3be-a14cbe2e0870"
+                LastKnownName="MessageOccurrenceSpecification3"
+                LastKnownLocation="ModelProj.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="1a9491c0-472b-437b-a7a1-fb9a33001e35"
+            name="ExecutionOccurrenceSpecification1">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="fb37e9c5-94a8-4544-b80e-9ad5d0d12d8f"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ModelProj.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="f85411b1-7236-4a43-9879-ec3f4eec3d8c"
+                LastKnownName="elevatorButtonPanel : ElevatorButtonPanel"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="aa1332d1-8197-49f2-a32d-23e091d06807"
+            name="MessageOccurrenceSpecification1">
+            <covered>
+              <lifelineMoniker
+                Id="a75e2fde-725e-4a15-a34e-e6984133c23f"
+                LastKnownName="elevatorBank : ElevatorBank"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="ae006976-389e-4aa8-9bea-6a500bc286c2"
+            name="MessageOccurrenceSpecification2">
+            <covered>
+              <lifelineMoniker
+                Id="f85411b1-7236-4a43-9879-ec3f4eec3d8c"
+                LastKnownName="elevatorButtonPanel : ElevatorButtonPanel"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="d28136b9-6576-4004-ad22-b546fcc6edda"
+            name="BehaviorExecutionSpecification2">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="227e219c-ee24-44eb-93a2-96f7c130795d"
+                LastKnownName="elevatorController : ElevatorController"
+                LastKnownLocation="ModelProj.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="45366708-67c4-4c46-b437-9311cb0c3b41"
+                LastKnownName="ExecutionOccurrenceSpecification4"
+                LastKnownLocation="ModelProj.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="14af3d1e-fa01-43e2-9b7a-357eedbc3e67"
+                LastKnownName="ExecutionOccurrenceSpecification3"
+                LastKnownLocation="ModelProj.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="68cef353-eb14-4845-94f2-f91143546d3e"
+                LastKnownName="MessageOccurrenceSpecification6"
+                LastKnownLocation="ModelProj.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="d1f276e6-9403-4604-b6ba-722b23fb4b5a"
+                LastKnownName="OperandOccurrenceSpecification35"
+                LastKnownLocation="ModelProj.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="613e0ddb-96df-43a1-8ea9-1ebc8026594d"
+                LastKnownName="MessageOccurrenceSpecification11"
+                LastKnownLocation="ModelProj.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="98e7de26-a1a8-4fd9-ba84-ea30fffb50d9"
+                LastKnownName="MessageOccurrenceSpecification14"
+                LastKnownLocation="ModelProj.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="18b72815-862a-4915-8355-f176b61f1e1b"
+                LastKnownName="OperandOccurrenceSpecification36"
+                LastKnownLocation="ModelProj.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="aad86d58-05ac-4d41-8c71-798792c969ff"
+                LastKnownName="OperandOccurrenceSpecification39"
+                LastKnownLocation="ModelProj.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="76afba32-d783-4181-a10b-0b7a9e862ccb"
+                LastKnownName="MessageOccurrenceSpecification11"
+                LastKnownLocation="ModelProj.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="b3fea3cf-e38f-472c-8840-1e30fa8046be"
+                LastKnownName="MessageOccurrenceSpecification14"
+                LastKnownLocation="ModelProj.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="b53ce45c-6810-4c04-8546-7a170b3bfd48"
+                LastKnownName="OperandOccurrenceSpecification55"
+                LastKnownLocation="ModelProj.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="016a3116-635d-4ce8-a86e-f65d7aad3a62"
+                LastKnownName="MessageOccurrenceSpecification15"
+                LastKnownLocation="ModelProj.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="80b600c7-6871-4f4c-83d9-8ae13a5fec82"
+                LastKnownName="ExecutionOccurrenceSpecification9"
+                LastKnownLocation="ModelProj.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="f9815b34-09dc-408b-a5cb-291f6419d1f3"
+                LastKnownName="ExecutionOccurrenceSpecification10"
+                LastKnownLocation="ModelProj.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="8f21aaf1-47a3-434a-85c3-d750a121574a"
+                LastKnownName="OperandOccurrenceSpecification56"
+                LastKnownLocation="ModelProj.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="44975bb3-d8aa-4001-b594-c3a40b6c6427"
+                LastKnownName="OperandOccurrenceSpecification40"
+                LastKnownLocation="ModelProj.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="56b10226-115e-463c-ab19-7c78d42bdb53"
+                LastKnownName="MessageOccurrenceSpecification7"
+                LastKnownLocation="ModelProj.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="14af3d1e-fa01-43e2-9b7a-357eedbc3e67"
+            name="ExecutionOccurrenceSpecification3">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="f60330c5-345e-4747-97a3-58182440a525"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ModelProj.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="227e219c-ee24-44eb-93a2-96f7c130795d"
+                LastKnownName="elevatorController : ElevatorController"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="d4df559f-28e6-4619-962f-8cbac4b553cc"
+            name="MessageOccurrenceSpecification5">
+            <covered>
+              <lifelineMoniker
+                Id="f85411b1-7236-4a43-9879-ec3f4eec3d8c"
+                LastKnownName="elevatorButtonPanel : ElevatorButtonPanel"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="68cef353-eb14-4845-94f2-f91143546d3e"
+            name="MessageOccurrenceSpecification6">
+            <covered>
+              <lifelineMoniker
+                Id="227e219c-ee24-44eb-93a2-96f7c130795d"
+                LastKnownName="elevatorController : ElevatorController"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <combinedFragment
+            Id="95896027-0d4f-463c-820e-0156e9f73e4d"
+            name="CombinedFragment1"
+            interactionOperator="Alt">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="227e219c-ee24-44eb-93a2-96f7c130795d"
+                LastKnownName="elevatorController : ElevatorController"
+                LastKnownLocation="ModelProj.uml" />
+              <lifelineMoniker
+                Id="d79852f7-3849-4fe2-b1dd-7220a302d939"
+                LastKnownName="elevatorStopQueue : ElevatorStopQueue"
+                LastKnownLocation="ModelProj.uml" />
+              <lifelineMoniker
+                Id="1f867a57-1ec0-4e27-b8b6-aa0fe6c53f76"
+                LastKnownName="elevator : Elevator"
+                LastKnownLocation="ModelProj.uml" />
+            </coveredLifelines>
+            <operands>
+              <interactionOperand
+                Id="ff194478-ef5a-4546-97e5-46461e6c8bb3"
+                name="InteractionOperand1">
+                <coveredLifelines>
+                  <lifelineMoniker
+                    Id="227e219c-ee24-44eb-93a2-96f7c130795d"
+                    LastKnownName="elevatorController : ElevatorController"
+                    LastKnownLocation="ModelProj.uml" />
+                  <lifelineMoniker
+                    Id="d79852f7-3849-4fe2-b1dd-7220a302d939"
+                    LastKnownName="elevatorStopQueue : ElevatorStopQueue"
+                    LastKnownLocation="ModelProj.uml" />
+                  <lifelineMoniker
+                    Id="1f867a57-1ec0-4e27-b8b6-aa0fe6c53f76"
+                    LastKnownName="elevator : Elevator"
+                    LastKnownLocation="ModelProj.uml" />
+                </coveredLifelines>
+                <guard>
+                  <interactionConstraint
+                    Id="ca5b0c1e-446a-464f-9b1b-78a126dce68f"
+                    guardText="if queue.Count &gt; 0" />
+                </guard>
+                <operandOccurrenceSpecifications>
+                  <operandOccurrenceSpecificationMoniker
+                    Id="2eaebfbb-4785-40db-8303-d9fcb98577d7"
+                    LastKnownName="OperandOccurrenceSpecification33"
+                    LastKnownLocation="ModelProj.uml" />
+                  <operandOccurrenceSpecificationMoniker
+                    Id="d526e897-e7ea-4bd7-8059-68a4ac012c4b"
+                    LastKnownName="OperandOccurrenceSpecification34"
+                    LastKnownLocation="ModelProj.uml" />
+                  <operandOccurrenceSpecificationMoniker
+                    Id="d1f276e6-9403-4604-b6ba-722b23fb4b5a"
+                    LastKnownName="OperandOccurrenceSpecification35"
+                    LastKnownLocation="ModelProj.uml" />
+                  <operandOccurrenceSpecificationMoniker
+                    Id="18b72815-862a-4915-8355-f176b61f1e1b"
+                    LastKnownName="OperandOccurrenceSpecification36"
+                    LastKnownLocation="ModelProj.uml" />
+                  <operandOccurrenceSpecificationMoniker
+                    Id="45cd4133-2a16-4e8c-abfa-d5a6e96a7057"
+                    LastKnownName="OperandOccurrenceSpecification51"
+                    LastKnownLocation="ModelProj.uml" />
+                  <operandOccurrenceSpecificationMoniker
+                    Id="be59105b-1488-4e83-9c79-88076d7a64f3"
+                    LastKnownName="OperandOccurrenceSpecification52"
+                    LastKnownLocation="ModelProj.uml" />
+                </operandOccurrenceSpecifications>
+              </interactionOperand>
+              <interactionOperand
+                Id="ac9c6bb0-9ef3-4ce4-8302-61b91511f7ba"
+                name="InteractionOperand2">
+                <coveredLifelines>
+                  <lifelineMoniker
+                    Id="227e219c-ee24-44eb-93a2-96f7c130795d"
+                    LastKnownName="elevatorController : ElevatorController"
+                    LastKnownLocation="ModelProj.uml" />
+                  <lifelineMoniker
+                    Id="d79852f7-3849-4fe2-b1dd-7220a302d939"
+                    LastKnownName="elevatorStopQueue : ElevatorStopQueue"
+                    LastKnownLocation="ModelProj.uml" />
+                  <lifelineMoniker
+                    Id="1f867a57-1ec0-4e27-b8b6-aa0fe6c53f76"
+                    LastKnownName="elevator : Elevator"
+                    LastKnownLocation="ModelProj.uml" />
+                </coveredLifelines>
+                <fragments>
+                  <combinedFragment
+                    Id="178ce462-c745-471a-994c-3ac560d4c2ea"
+                    name="CombinedFragment1"
+                    interactionOperator="Loop">
+                    <coveredLifelines>
+                      <lifelineMoniker
+                        Id="227e219c-ee24-44eb-93a2-96f7c130795d"
+                        LastKnownName="elevatorController : ElevatorController"
+                        LastKnownLocation="ModelProj.uml" />
+                      <lifelineMoniker
+                        Id="d79852f7-3849-4fe2-b1dd-7220a302d939"
+                        LastKnownName="elevatorStopQueue : ElevatorStopQueue"
+                        LastKnownLocation="ModelProj.uml" />
+                      <lifelineMoniker
+                        Id="1f867a57-1ec0-4e27-b8b6-aa0fe6c53f76"
+                        LastKnownName="elevator : Elevator"
+                        LastKnownLocation="ModelProj.uml" />
+                    </coveredLifelines>
+                    <operands>
+                      <interactionOperand
+                        Id="73d6e511-bffc-4fc1-a5c0-7040bab61aca"
+                        name="InteractionOperand1">
+                        <coveredLifelines>
+                          <lifelineMoniker
+                            Id="227e219c-ee24-44eb-93a2-96f7c130795d"
+                            LastKnownName="elevatorController : ElevatorController"
+                            LastKnownLocation="ModelProj.uml" />
+                          <lifelineMoniker
+                            Id="d79852f7-3849-4fe2-b1dd-7220a302d939"
+                            LastKnownName="elevatorStopQueue : ElevatorStopQueue"
+                            LastKnownLocation="ModelProj.uml" />
+                          <lifelineMoniker
+                            Id="1f867a57-1ec0-4e27-b8b6-aa0fe6c53f76"
+                            LastKnownName="elevator : Elevator"
+                            LastKnownLocation="ModelProj.uml" />
+                        </coveredLifelines>
+                        <guard>
+                          <interactionConstraint
+                            Id="f8b9c4bc-cfeb-488a-affd-d01f5e6aa7a9"
+                            guardText="while queu.Count &gt; 0">
+                            <maxInt>
+                              <literalString
+                                Id="0c88d76c-bc73-43be-8b58-2f6937b565c0"
+                                name="LiteralString1" />
+                            </maxInt>
+                            <minInt>
+                              <literalString
+                                Id="ab5a9d4b-8728-47ca-ab8c-04446c0c7cbf"
+                                name="LiteralString2" />
+                            </minInt>
+                          </interactionConstraint>
+                        </guard>
+                        <operandOccurrenceSpecifications>
+                          <operandOccurrenceSpecificationMoniker
+                            Id="b53ce45c-6810-4c04-8546-7a170b3bfd48"
+                            LastKnownName="OperandOccurrenceSpecification55"
+                            LastKnownLocation="ModelProj.uml" />
+                          <operandOccurrenceSpecificationMoniker
+                            Id="8f21aaf1-47a3-434a-85c3-d750a121574a"
+                            LastKnownName="OperandOccurrenceSpecification56"
+                            LastKnownLocation="ModelProj.uml" />
+                          <operandOccurrenceSpecificationMoniker
+                            Id="b0fe5049-8697-4dc1-b497-21b82b2b83ca"
+                            LastKnownName="OperandOccurrenceSpecification57"
+                            LastKnownLocation="ModelProj.uml" />
+                          <operandOccurrenceSpecificationMoniker
+                            Id="b7eb3c15-9c94-49b9-8365-a7388b675ff5"
+                            LastKnownName="OperandOccurrenceSpecification58"
+                            LastKnownLocation="ModelProj.uml" />
+                          <operandOccurrenceSpecificationMoniker
+                            Id="335b8e55-0ddd-4fb9-9cc8-1df8419a0280"
+                            LastKnownName="OperandOccurrenceSpecification59"
+                            LastKnownLocation="ModelProj.uml" />
+                          <operandOccurrenceSpecificationMoniker
+                            Id="6e8d9f44-aac3-4639-ab36-1b362c50fc23"
+                            LastKnownName="OperandOccurrenceSpecification60"
+                            LastKnownLocation="ModelProj.uml" />
+                        </operandOccurrenceSpecifications>
+                      </interactionOperand>
+                    </operands>
+                  </combinedFragment>
+                </fragments>
+                <guard>
+                  <interactionConstraint
+                    Id="ad5a5aa0-c663-4601-a604-691a4e87ab98" />
+                </guard>
+                <operandOccurrenceSpecifications>
+                  <operandOccurrenceSpecificationMoniker
+                    Id="0801ba28-1d1c-44ea-8003-000f986d502b"
+                    LastKnownName="OperandOccurrenceSpecification37"
+                    LastKnownLocation="ModelProj.uml" />
+                  <operandOccurrenceSpecificationMoniker
+                    Id="d717e4ac-f388-4590-8ba2-ede4ff5fedcc"
+                    LastKnownName="OperandOccurrenceSpecification38"
+                    LastKnownLocation="ModelProj.uml" />
+                  <operandOccurrenceSpecificationMoniker
+                    Id="aad86d58-05ac-4d41-8c71-798792c969ff"
+                    LastKnownName="OperandOccurrenceSpecification39"
+                    LastKnownLocation="ModelProj.uml" />
+                  <operandOccurrenceSpecificationMoniker
+                    Id="44975bb3-d8aa-4001-b594-c3a40b6c6427"
+                    LastKnownName="OperandOccurrenceSpecification40"
+                    LastKnownLocation="ModelProj.uml" />
+                  <operandOccurrenceSpecificationMoniker
+                    Id="2017ac4e-85fd-4e45-bd76-1e91fd5bf6dd"
+                    LastKnownName="OperandOccurrenceSpecification53"
+                    LastKnownLocation="ModelProj.uml" />
+                  <operandOccurrenceSpecificationMoniker
+                    Id="2884a0f6-2f24-4090-9620-c1517f743dea"
+                    LastKnownName="OperandOccurrenceSpecification54"
+                    LastKnownLocation="ModelProj.uml" />
+                </operandOccurrenceSpecifications>
+              </interactionOperand>
+            </operands>
+          </combinedFragment>
+          <operandOccurrenceSpecification
+            Id="2eaebfbb-4785-40db-8303-d9fcb98577d7"
+            name="OperandOccurrenceSpecification33">
+            <covered>
+              <lifelineMoniker
+                Id="d79852f7-3849-4fe2-b1dd-7220a302d939"
+                LastKnownName="elevatorStopQueue : ElevatorStopQueue"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="45cd4133-2a16-4e8c-abfa-d5a6e96a7057"
+            name="OperandOccurrenceSpecification51">
+            <covered>
+              <lifelineMoniker
+                Id="1f867a57-1ec0-4e27-b8b6-aa0fe6c53f76"
+                LastKnownName="elevator : Elevator"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="d1f276e6-9403-4604-b6ba-722b23fb4b5a"
+            name="OperandOccurrenceSpecification35">
+            <covered>
+              <lifelineMoniker
+                Id="227e219c-ee24-44eb-93a2-96f7c130795d"
+                LastKnownName="elevatorController : ElevatorController"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="6f501a8f-48a3-4c69-9336-09559d879f0e"
+            name="BehaviorExecutionSpecification4">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="d79852f7-3849-4fe2-b1dd-7220a302d939"
+                LastKnownName="elevatorStopQueue : ElevatorStopQueue"
+                LastKnownLocation="ModelProj.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="35b48aa4-8b49-4033-ac2b-b6620ccbfc4f"
+                LastKnownName="ExecutionOccurrenceSpecification8"
+                LastKnownLocation="ModelProj.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="b3943b76-28f7-4c38-81d0-856e9d257a74"
+                LastKnownName="ExecutionOccurrenceSpecification7"
+                LastKnownLocation="ModelProj.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="253a7b39-12c9-49d4-b734-c0fc05aa28a7"
+                LastKnownName="MessageOccurrenceSpecification12"
+                LastKnownLocation="ModelProj.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="77bbc053-530f-47e6-a2c9-61ccf2dc8e71"
+                LastKnownName="MessageOccurrenceSpecification13"
+                LastKnownLocation="ModelProj.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="b3943b76-28f7-4c38-81d0-856e9d257a74"
+            name="ExecutionOccurrenceSpecification7">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="92a8abf0-9b3b-4e20-89cf-d07bdc259c10"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ModelProj.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="d79852f7-3849-4fe2-b1dd-7220a302d939"
+                LastKnownName="elevatorStopQueue : ElevatorStopQueue"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="253a7b39-12c9-49d4-b734-c0fc05aa28a7"
+            name="MessageOccurrenceSpecification12">
+            <covered>
+              <lifelineMoniker
+                Id="d79852f7-3849-4fe2-b1dd-7220a302d939"
+                LastKnownName="elevatorStopQueue : ElevatorStopQueue"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="613e0ddb-96df-43a1-8ea9-1ebc8026594d"
+            name="MessageOccurrenceSpecification11">
+            <covered>
+              <lifelineMoniker
+                Id="227e219c-ee24-44eb-93a2-96f7c130795d"
+                LastKnownName="elevatorController : ElevatorController"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="98e7de26-a1a8-4fd9-ba84-ea30fffb50d9"
+            name="MessageOccurrenceSpecification14">
+            <covered>
+              <lifelineMoniker
+                Id="227e219c-ee24-44eb-93a2-96f7c130795d"
+                LastKnownName="elevatorController : ElevatorController"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="77bbc053-530f-47e6-a2c9-61ccf2dc8e71"
+            name="MessageOccurrenceSpecification13">
+            <covered>
+              <lifelineMoniker
+                Id="d79852f7-3849-4fe2-b1dd-7220a302d939"
+                LastKnownName="elevatorStopQueue : ElevatorStopQueue"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="35b48aa4-8b49-4033-ac2b-b6620ccbfc4f"
+            name="ExecutionOccurrenceSpecification8">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="577cd5ff-59a1-43f0-8a24-851e273c00ca"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ModelProj.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="d79852f7-3849-4fe2-b1dd-7220a302d939"
+                LastKnownName="elevatorStopQueue : ElevatorStopQueue"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="d526e897-e7ea-4bd7-8059-68a4ac012c4b"
+            name="OperandOccurrenceSpecification34">
+            <covered>
+              <lifelineMoniker
+                Id="d79852f7-3849-4fe2-b1dd-7220a302d939"
+                LastKnownName="elevatorStopQueue : ElevatorStopQueue"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="18b72815-862a-4915-8355-f176b61f1e1b"
+            name="OperandOccurrenceSpecification36">
+            <covered>
+              <lifelineMoniker
+                Id="227e219c-ee24-44eb-93a2-96f7c130795d"
+                LastKnownName="elevatorController : ElevatorController"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="be59105b-1488-4e83-9c79-88076d7a64f3"
+            name="OperandOccurrenceSpecification52">
+            <covered>
+              <lifelineMoniker
+                Id="1f867a57-1ec0-4e27-b8b6-aa0fe6c53f76"
+                LastKnownName="elevator : Elevator"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="aad86d58-05ac-4d41-8c71-798792c969ff"
+            name="OperandOccurrenceSpecification39">
+            <covered>
+              <lifelineMoniker
+                Id="227e219c-ee24-44eb-93a2-96f7c130795d"
+                LastKnownName="elevatorController : ElevatorController"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="0801ba28-1d1c-44ea-8003-000f986d502b"
+            name="OperandOccurrenceSpecification37">
+            <covered>
+              <lifelineMoniker
+                Id="d79852f7-3849-4fe2-b1dd-7220a302d939"
+                LastKnownName="elevatorStopQueue : ElevatorStopQueue"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="2017ac4e-85fd-4e45-bd76-1e91fd5bf6dd"
+            name="OperandOccurrenceSpecification53">
+            <covered>
+              <lifelineMoniker
+                Id="1f867a57-1ec0-4e27-b8b6-aa0fe6c53f76"
+                LastKnownName="elevator : Elevator"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="45f3505d-f9d5-42b5-95ea-079e100516f7"
+            name="BehaviorExecutionSpecification4">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="d79852f7-3849-4fe2-b1dd-7220a302d939"
+                LastKnownName="elevatorStopQueue : ElevatorStopQueue"
+                LastKnownLocation="ModelProj.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="527944e2-d78b-4959-9b2d-927a61881da4"
+                LastKnownName="ExecutionOccurrenceSpecification8"
+                LastKnownLocation="ModelProj.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="5124021c-dedd-4c7e-98db-e47de9beea35"
+                LastKnownName="ExecutionOccurrenceSpecification7"
+                LastKnownLocation="ModelProj.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="d6a83d77-45ef-40d1-9c61-049fa7d49438"
+                LastKnownName="MessageOccurrenceSpecification12"
+                LastKnownLocation="ModelProj.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="3e811864-cfff-4bac-816a-af9a5915bc1f"
+                LastKnownName="MessageOccurrenceSpecification13"
+                LastKnownLocation="ModelProj.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="5124021c-dedd-4c7e-98db-e47de9beea35"
+            name="ExecutionOccurrenceSpecification7">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="26af9666-5bbd-4fef-97f5-88c0e843abf3"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ModelProj.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="d79852f7-3849-4fe2-b1dd-7220a302d939"
+                LastKnownName="elevatorStopQueue : ElevatorStopQueue"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="d6a83d77-45ef-40d1-9c61-049fa7d49438"
+            name="MessageOccurrenceSpecification12">
+            <covered>
+              <lifelineMoniker
+                Id="d79852f7-3849-4fe2-b1dd-7220a302d939"
+                LastKnownName="elevatorStopQueue : ElevatorStopQueue"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="76afba32-d783-4181-a10b-0b7a9e862ccb"
+            name="MessageOccurrenceSpecification11">
+            <covered>
+              <lifelineMoniker
+                Id="227e219c-ee24-44eb-93a2-96f7c130795d"
+                LastKnownName="elevatorController : ElevatorController"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="3e811864-cfff-4bac-816a-af9a5915bc1f"
+            name="MessageOccurrenceSpecification13">
+            <covered>
+              <lifelineMoniker
+                Id="d79852f7-3849-4fe2-b1dd-7220a302d939"
+                LastKnownName="elevatorStopQueue : ElevatorStopQueue"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="b3fea3cf-e38f-472c-8840-1e30fa8046be"
+            name="MessageOccurrenceSpecification14">
+            <covered>
+              <lifelineMoniker
+                Id="227e219c-ee24-44eb-93a2-96f7c130795d"
+                LastKnownName="elevatorController : ElevatorController"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="527944e2-d78b-4959-9b2d-927a61881da4"
+            name="ExecutionOccurrenceSpecification8">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="417523ed-f565-4c31-a5e6-29b6cd13e034"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ModelProj.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="d79852f7-3849-4fe2-b1dd-7220a302d939"
+                LastKnownName="elevatorStopQueue : ElevatorStopQueue"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="b53ce45c-6810-4c04-8546-7a170b3bfd48"
+            name="OperandOccurrenceSpecification55">
+            <covered>
+              <lifelineMoniker
+                Id="227e219c-ee24-44eb-93a2-96f7c130795d"
+                LastKnownName="elevatorController : ElevatorController"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="335b8e55-0ddd-4fb9-9cc8-1df8419a0280"
+            name="OperandOccurrenceSpecification59">
+            <covered>
+              <lifelineMoniker
+                Id="1f867a57-1ec0-4e27-b8b6-aa0fe6c53f76"
+                LastKnownName="elevator : Elevator"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="b0fe5049-8697-4dc1-b497-21b82b2b83ca"
+            name="OperandOccurrenceSpecification57">
+            <covered>
+              <lifelineMoniker
+                Id="d79852f7-3849-4fe2-b1dd-7220a302d939"
+                LastKnownName="elevatorStopQueue : ElevatorStopQueue"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="016a3116-635d-4ce8-a86e-f65d7aad3a62"
+            name="MessageOccurrenceSpecification15">
+            <covered>
+              <lifelineMoniker
+                Id="227e219c-ee24-44eb-93a2-96f7c130795d"
+                LastKnownName="elevatorController : ElevatorController"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="7d6d89cd-374f-4076-b410-146d1516aa42"
+            name="BehaviorExecutionSpecification5">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="227e219c-ee24-44eb-93a2-96f7c130795d"
+                LastKnownName="elevatorController : ElevatorController"
+                LastKnownLocation="ModelProj.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="f9815b34-09dc-408b-a5cb-291f6419d1f3"
+                LastKnownName="ExecutionOccurrenceSpecification10"
+                LastKnownLocation="ModelProj.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="80b600c7-6871-4f4c-83d9-8ae13a5fec82"
+                LastKnownName="ExecutionOccurrenceSpecification9"
+                LastKnownLocation="ModelProj.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="8475e35f-6b04-4e4e-96fe-a8ee29ebc186"
+                LastKnownName="MessageOccurrenceSpecification16"
+                LastKnownLocation="ModelProj.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="af8d98ed-97cf-4bc0-8aee-3e405772f2af"
+                LastKnownName="MessageOccurrenceSpecification17"
+                LastKnownLocation="ModelProj.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="9524b971-d0e7-4dae-beee-a15bafbee27f"
+                LastKnownName="MessageOccurrenceSpecification20"
+                LastKnownLocation="ModelProj.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="fa869151-681b-4bed-a071-39a1c542b8f2"
+                LastKnownName="MessageOccurrenceSpecification21"
+                LastKnownLocation="ModelProj.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="c1115194-7e88-49d3-bc5e-20fa46583973"
+                LastKnownName="MessageOccurrenceSpecification24"
+                LastKnownLocation="ModelProj.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="80b600c7-6871-4f4c-83d9-8ae13a5fec82"
+            name="ExecutionOccurrenceSpecification9">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="ae7202ba-a40a-4f34-9580-a504f81b8280"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ModelProj.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="227e219c-ee24-44eb-93a2-96f7c130795d"
+                LastKnownName="elevatorController : ElevatorController"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="8475e35f-6b04-4e4e-96fe-a8ee29ebc186"
+            name="MessageOccurrenceSpecification16">
+            <covered>
+              <lifelineMoniker
+                Id="227e219c-ee24-44eb-93a2-96f7c130795d"
+                LastKnownName="elevatorController : ElevatorController"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="3b8b4835-e2aa-43d4-aacb-7feb6511ded9"
+            name="BehaviorExecutionSpecification6">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="d79852f7-3849-4fe2-b1dd-7220a302d939"
+                LastKnownName="elevatorStopQueue : ElevatorStopQueue"
+                LastKnownLocation="ModelProj.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="c6edf921-209a-43fd-90f6-c8c1f0868ed6"
+                LastKnownName="ExecutionOccurrenceSpecification12"
+                LastKnownLocation="ModelProj.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="c5927096-a17a-4730-8740-461c74f5071d"
+                LastKnownName="ExecutionOccurrenceSpecification11"
+                LastKnownLocation="ModelProj.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="b1e59e55-3a8c-42df-a26f-d6424c45875b"
+                LastKnownName="MessageOccurrenceSpecification18"
+                LastKnownLocation="ModelProj.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="ced1d439-a802-4d29-a549-87505a61865a"
+                LastKnownName="MessageOccurrenceSpecification19"
+                LastKnownLocation="ModelProj.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="c5927096-a17a-4730-8740-461c74f5071d"
+            name="ExecutionOccurrenceSpecification11">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="94f5e7b7-3177-4d0b-b046-a371520683c3"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ModelProj.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="d79852f7-3849-4fe2-b1dd-7220a302d939"
+                LastKnownName="elevatorStopQueue : ElevatorStopQueue"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="af8d98ed-97cf-4bc0-8aee-3e405772f2af"
+            name="MessageOccurrenceSpecification17">
+            <covered>
+              <lifelineMoniker
+                Id="227e219c-ee24-44eb-93a2-96f7c130795d"
+                LastKnownName="elevatorController : ElevatorController"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="b1e59e55-3a8c-42df-a26f-d6424c45875b"
+            name="MessageOccurrenceSpecification18">
+            <covered>
+              <lifelineMoniker
+                Id="d79852f7-3849-4fe2-b1dd-7220a302d939"
+                LastKnownName="elevatorStopQueue : ElevatorStopQueue"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="ced1d439-a802-4d29-a549-87505a61865a"
+            name="MessageOccurrenceSpecification19">
+            <covered>
+              <lifelineMoniker
+                Id="d79852f7-3849-4fe2-b1dd-7220a302d939"
+                LastKnownName="elevatorStopQueue : ElevatorStopQueue"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="9524b971-d0e7-4dae-beee-a15bafbee27f"
+            name="MessageOccurrenceSpecification20">
+            <covered>
+              <lifelineMoniker
+                Id="227e219c-ee24-44eb-93a2-96f7c130795d"
+                LastKnownName="elevatorController : ElevatorController"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="c6edf921-209a-43fd-90f6-c8c1f0868ed6"
+            name="ExecutionOccurrenceSpecification12">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="be45793d-936b-4b10-b547-f9c6d403203b"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ModelProj.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="d79852f7-3849-4fe2-b1dd-7220a302d939"
+                LastKnownName="elevatorStopQueue : ElevatorStopQueue"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="1f9f9a08-d770-4521-84fc-b0fe2f6872d0"
+            name="BehaviorExecutionSpecification7">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="1f867a57-1ec0-4e27-b8b6-aa0fe6c53f76"
+                LastKnownName="elevator : Elevator"
+                LastKnownLocation="ModelProj.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="5bb96e84-b001-4876-b124-ee208c7c10d6"
+                LastKnownName="ExecutionOccurrenceSpecification14"
+                LastKnownLocation="ModelProj.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="3eb12412-0b1d-4680-a0db-2533256142aa"
+                LastKnownName="ExecutionOccurrenceSpecification13"
+                LastKnownLocation="ModelProj.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="089de796-efc4-436f-b411-4c32cbd59a90"
+                LastKnownName="MessageOccurrenceSpecification22"
+                LastKnownLocation="ModelProj.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="66f1a93d-0109-4357-8dbd-cdca2457b2bf"
+                LastKnownName="MessageOccurrenceSpecification23"
+                LastKnownLocation="ModelProj.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="3eb12412-0b1d-4680-a0db-2533256142aa"
+            name="ExecutionOccurrenceSpecification13">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="13f1c68d-cd1a-4125-a117-a16226c29ad5"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ModelProj.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="1f867a57-1ec0-4e27-b8b6-aa0fe6c53f76"
+                LastKnownName="elevator : Elevator"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="089de796-efc4-436f-b411-4c32cbd59a90"
+            name="MessageOccurrenceSpecification22">
+            <covered>
+              <lifelineMoniker
+                Id="1f867a57-1ec0-4e27-b8b6-aa0fe6c53f76"
+                LastKnownName="elevator : Elevator"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="fa869151-681b-4bed-a071-39a1c542b8f2"
+            name="MessageOccurrenceSpecification21">
+            <covered>
+              <lifelineMoniker
+                Id="227e219c-ee24-44eb-93a2-96f7c130795d"
+                LastKnownName="elevatorController : ElevatorController"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="c1115194-7e88-49d3-bc5e-20fa46583973"
+            name="MessageOccurrenceSpecification24">
+            <covered>
+              <lifelineMoniker
+                Id="227e219c-ee24-44eb-93a2-96f7c130795d"
+                LastKnownName="elevatorController : ElevatorController"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="66f1a93d-0109-4357-8dbd-cdca2457b2bf"
+            name="MessageOccurrenceSpecification23">
+            <covered>
+              <lifelineMoniker
+                Id="1f867a57-1ec0-4e27-b8b6-aa0fe6c53f76"
+                LastKnownName="elevator : Elevator"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="5bb96e84-b001-4876-b124-ee208c7c10d6"
+            name="ExecutionOccurrenceSpecification14">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="ec5994ca-b5a1-40b8-ae9b-626a7e09e314"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ModelProj.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="1f867a57-1ec0-4e27-b8b6-aa0fe6c53f76"
+                LastKnownName="elevator : Elevator"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="f9815b34-09dc-408b-a5cb-291f6419d1f3"
+            name="ExecutionOccurrenceSpecification10">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="ce16c25b-ec00-4656-b5a0-044a0aeda30a"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ModelProj.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="227e219c-ee24-44eb-93a2-96f7c130795d"
+                LastKnownName="elevatorController : ElevatorController"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="8f21aaf1-47a3-434a-85c3-d750a121574a"
+            name="OperandOccurrenceSpecification56">
+            <covered>
+              <lifelineMoniker
+                Id="227e219c-ee24-44eb-93a2-96f7c130795d"
+                LastKnownName="elevatorController : ElevatorController"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="6e8d9f44-aac3-4639-ab36-1b362c50fc23"
+            name="OperandOccurrenceSpecification60">
+            <covered>
+              <lifelineMoniker
+                Id="1f867a57-1ec0-4e27-b8b6-aa0fe6c53f76"
+                LastKnownName="elevator : Elevator"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="b7eb3c15-9c94-49b9-8365-a7388b675ff5"
+            name="OperandOccurrenceSpecification58">
+            <covered>
+              <lifelineMoniker
+                Id="d79852f7-3849-4fe2-b1dd-7220a302d939"
+                LastKnownName="elevatorStopQueue : ElevatorStopQueue"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="d717e4ac-f388-4590-8ba2-ede4ff5fedcc"
+            name="OperandOccurrenceSpecification38">
+            <covered>
+              <lifelineMoniker
+                Id="d79852f7-3849-4fe2-b1dd-7220a302d939"
+                LastKnownName="elevatorStopQueue : ElevatorStopQueue"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="2884a0f6-2f24-4090-9620-c1517f743dea"
+            name="OperandOccurrenceSpecification54">
+            <covered>
+              <lifelineMoniker
+                Id="1f867a57-1ec0-4e27-b8b6-aa0fe6c53f76"
+                LastKnownName="elevator : Elevator"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="44975bb3-d8aa-4001-b594-c3a40b6c6427"
+            name="OperandOccurrenceSpecification40">
+            <covered>
+              <lifelineMoniker
+                Id="227e219c-ee24-44eb-93a2-96f7c130795d"
+                LastKnownName="elevatorController : ElevatorController"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="56b10226-115e-463c-ab19-7c78d42bdb53"
+            name="MessageOccurrenceSpecification7">
+            <covered>
+              <lifelineMoniker
+                Id="227e219c-ee24-44eb-93a2-96f7c130795d"
+                LastKnownName="elevatorController : ElevatorController"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="ce6212f4-7cd7-4e8a-a299-e4630c193e02"
+            name="MessageOccurrenceSpecification8">
+            <covered>
+              <lifelineMoniker
+                Id="f85411b1-7236-4a43-9879-ec3f4eec3d8c"
+                LastKnownName="elevatorButtonPanel : ElevatorButtonPanel"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="45366708-67c4-4c46-b437-9311cb0c3b41"
+            name="ExecutionOccurrenceSpecification4">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="e9f185d2-fdd1-4724-a8fe-01248f970e73"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ModelProj.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="227e219c-ee24-44eb-93a2-96f7c130795d"
+                LastKnownName="elevatorController : ElevatorController"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="ce2d6b55-47a4-48c1-a048-1de5dc626263"
+            name="MessageOccurrenceSpecification4">
+            <covered>
+              <lifelineMoniker
+                Id="a75e2fde-725e-4a15-a34e-e6984133c23f"
+                LastKnownName="elevatorBank : ElevatorBank"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="661446c0-b6f9-4fdb-a3be-a14cbe2e0870"
+            name="MessageOccurrenceSpecification3">
+            <covered>
+              <lifelineMoniker
+                Id="f85411b1-7236-4a43-9879-ec3f4eec3d8c"
+                LastKnownName="elevatorButtonPanel : ElevatorButtonPanel"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="06aeae9f-c48d-482b-b027-6f516aa0b636"
+            name="ExecutionOccurrenceSpecification2">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="57f28761-8791-48f8-9f1a-c9fb9b42951a"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ModelProj.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="f85411b1-7236-4a43-9879-ec3f4eec3d8c"
+                LastKnownName="elevatorButtonPanel : ElevatorButtonPanel"
+                LastKnownLocation="ModelProj.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline
+            Id="a75e2fde-725e-4a15-a34e-e6984133c23f"
+            name="elevatorBank : ElevatorBank"
+            isActor="false"
+            lifelineDisplayName="elevatorBank : ElevatorBank">
+            <represents>
+              <propertyMoniker
+                Id="03f00179-2c1c-4895-9d0e-6c4a472fef18"
+                LastKnownLocation="ModelProj.uml" />
+            </represents>
+            <topLevelOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="aa1332d1-8197-49f2-a32d-23e091d06807"
+                LastKnownName="MessageOccurrenceSpecification1"
+                LastKnownLocation="ModelProj.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="ce2d6b55-47a4-48c1-a048-1de5dc626263"
+                LastKnownName="MessageOccurrenceSpecification4"
+                LastKnownLocation="ModelProj.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="f85411b1-7236-4a43-9879-ec3f4eec3d8c"
+            name="elevatorButtonPanel : ElevatorButtonPanel"
+            isActor="false"
+            lifelineDisplayName="elevatorButtonPanel : ElevatorButtonPanel">
+            <represents>
+              <propertyMoniker
+                Id="a37a145c-364b-4109-9385-531008d8b17d"
+                LastKnownLocation="ModelProj.uml" />
+            </represents>
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="1a9491c0-472b-437b-a7a1-fb9a33001e35"
+                LastKnownName="ExecutionOccurrenceSpecification1"
+                LastKnownLocation="ModelProj.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="06aeae9f-c48d-482b-b027-6f516aa0b636"
+                LastKnownName="ExecutionOccurrenceSpecification2"
+                LastKnownLocation="ModelProj.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="227e219c-ee24-44eb-93a2-96f7c130795d"
+            name="elevatorController : ElevatorController"
+            isActor="false"
+            lifelineDisplayName="elevatorController : ElevatorController">
+            <represents>
+              <propertyMoniker
+                Id="45d1f8b6-0c15-488a-ac9e-9e05becbceb5"
+                LastKnownLocation="ModelProj.uml" />
+            </represents>
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="14af3d1e-fa01-43e2-9b7a-357eedbc3e67"
+                LastKnownName="ExecutionOccurrenceSpecification3"
+                LastKnownLocation="ModelProj.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="45366708-67c4-4c46-b437-9311cb0c3b41"
+                LastKnownName="ExecutionOccurrenceSpecification4"
+                LastKnownLocation="ModelProj.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="d79852f7-3849-4fe2-b1dd-7220a302d939"
+            name="elevatorStopQueue : ElevatorStopQueue"
+            isActor="false"
+            lifelineDisplayName="elevatorStopQueue : ElevatorStopQueue">
+            <represents>
+              <propertyMoniker
+                Id="8bd899ce-4d1c-448c-9269-713caf623f19"
+                LastKnownLocation="ModelProj.uml" />
+            </represents>
+            <topLevelOccurrences>
+              <operandOccurrenceSpecificationMoniker
+                Id="2eaebfbb-4785-40db-8303-d9fcb98577d7"
+                LastKnownName="OperandOccurrenceSpecification33"
+                LastKnownLocation="ModelProj.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="b3943b76-28f7-4c38-81d0-856e9d257a74"
+                LastKnownName="ExecutionOccurrenceSpecification7"
+                LastKnownLocation="ModelProj.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="35b48aa4-8b49-4033-ac2b-b6620ccbfc4f"
+                LastKnownName="ExecutionOccurrenceSpecification8"
+                LastKnownLocation="ModelProj.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="d526e897-e7ea-4bd7-8059-68a4ac012c4b"
+                LastKnownName="OperandOccurrenceSpecification34"
+                LastKnownLocation="ModelProj.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="0801ba28-1d1c-44ea-8003-000f986d502b"
+                LastKnownName="OperandOccurrenceSpecification37"
+                LastKnownLocation="ModelProj.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="5124021c-dedd-4c7e-98db-e47de9beea35"
+                LastKnownName="ExecutionOccurrenceSpecification7"
+                LastKnownLocation="ModelProj.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="527944e2-d78b-4959-9b2d-927a61881da4"
+                LastKnownName="ExecutionOccurrenceSpecification8"
+                LastKnownLocation="ModelProj.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="b0fe5049-8697-4dc1-b497-21b82b2b83ca"
+                LastKnownName="OperandOccurrenceSpecification57"
+                LastKnownLocation="ModelProj.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="c5927096-a17a-4730-8740-461c74f5071d"
+                LastKnownName="ExecutionOccurrenceSpecification11"
+                LastKnownLocation="ModelProj.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="c6edf921-209a-43fd-90f6-c8c1f0868ed6"
+                LastKnownName="ExecutionOccurrenceSpecification12"
+                LastKnownLocation="ModelProj.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="b7eb3c15-9c94-49b9-8365-a7388b675ff5"
+                LastKnownName="OperandOccurrenceSpecification58"
+                LastKnownLocation="ModelProj.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="d717e4ac-f388-4590-8ba2-ede4ff5fedcc"
+                LastKnownName="OperandOccurrenceSpecification38"
+                LastKnownLocation="ModelProj.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="1f867a57-1ec0-4e27-b8b6-aa0fe6c53f76"
+            name="elevator : Elevator"
+            isActor="false"
+            lifelineDisplayName="elevator : Elevator">
+            <represents>
+              <propertyMoniker
+                Id="b4f4e7e8-8d73-43f4-a021-53cac2cffbd9"
+                LastKnownLocation="ModelProj.uml" />
+            </represents>
+            <topLevelOccurrences>
+              <operandOccurrenceSpecificationMoniker
+                Id="45cd4133-2a16-4e8c-abfa-d5a6e96a7057"
+                LastKnownName="OperandOccurrenceSpecification51"
+                LastKnownLocation="ModelProj.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="be59105b-1488-4e83-9c79-88076d7a64f3"
+                LastKnownName="OperandOccurrenceSpecification52"
+                LastKnownLocation="ModelProj.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="2017ac4e-85fd-4e45-bd76-1e91fd5bf6dd"
+                LastKnownName="OperandOccurrenceSpecification53"
+                LastKnownLocation="ModelProj.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="335b8e55-0ddd-4fb9-9cc8-1df8419a0280"
+                LastKnownName="OperandOccurrenceSpecification59"
+                LastKnownLocation="ModelProj.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="3eb12412-0b1d-4680-a0db-2533256142aa"
+                LastKnownName="ExecutionOccurrenceSpecification13"
+                LastKnownLocation="ModelProj.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="5bb96e84-b001-4876-b124-ee208c7c10d6"
+                LastKnownName="ExecutionOccurrenceSpecification14"
+                LastKnownLocation="ModelProj.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="6e8d9f44-aac3-4639-ab36-1b362c50fc23"
+                LastKnownName="OperandOccurrenceSpecification60"
+                LastKnownLocation="ModelProj.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="2884a0f6-2f24-4090-9620-c1517f743dea"
+                LastKnownName="OperandOccurrenceSpecification54"
+                LastKnownLocation="ModelProj.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message
+            Id="2c82206a-b08b-4036-aeb2-eff53914e59b"
+            name="SendElevatorToFloorFromWithin(elevator, floor)"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="aa1332d1-8197-49f2-a32d-23e091d06807"
+                LastKnownName="MessageOccurrenceSpecification1"
+                LastKnownLocation="ModelProj.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="ae006976-389e-4aa8-9bea-6a500bc286c2"
+                LastKnownName="MessageOccurrenceSpecification2"
+                LastKnownLocation="ModelProj.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="bc005d79-e1fe-41d1-ba37-08ac317fd1b7"
+            name="NotifyControllerSelectedFloor(floor)"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="d4df559f-28e6-4619-962f-8cbac4b553cc"
+                LastKnownName="MessageOccurrenceSpecification5"
+                LastKnownLocation="ModelProj.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="68cef353-eb14-4845-94f2-f91143546d3e"
+                LastKnownName="MessageOccurrenceSpecification6"
+                LastKnownLocation="ModelProj.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="1aeea02a-3005-4538-a518-6c33e7013ae8"
+            name="InsertStop(requestedFloor, directionToNextStop, elevatorID)"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="613e0ddb-96df-43a1-8ea9-1ebc8026594d"
+                LastKnownName="MessageOccurrenceSpecification11"
+                LastKnownLocation="ModelProj.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="253a7b39-12c9-49d4-b734-c0fc05aa28a7"
+                LastKnownName="MessageOccurrenceSpecification12"
+                LastKnownLocation="ModelProj.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="8f6f6a63-8dc8-4d8b-89b1-2ed4344ffef4"
+            name="&lt;&lt;return&gt;&gt;"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="77bbc053-530f-47e6-a2c9-61ccf2dc8e71"
+                LastKnownName="MessageOccurrenceSpecification13"
+                LastKnownLocation="ModelProj.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="98e7de26-a1a8-4fd9-ba84-ea30fffb50d9"
+                LastKnownName="MessageOccurrenceSpecification14"
+                LastKnownLocation="ModelProj.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="3ca84817-a0c2-4e22-a7d4-5d9dc1c31c8f"
+            name="InsertStop(requestedFloor, directionToNextStop, elevatorID)"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="76afba32-d783-4181-a10b-0b7a9e862ccb"
+                LastKnownName="MessageOccurrenceSpecification11"
+                LastKnownLocation="ModelProj.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="d6a83d77-45ef-40d1-9c61-049fa7d49438"
+                LastKnownName="MessageOccurrenceSpecification12"
+                LastKnownLocation="ModelProj.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="855daa92-7aeb-4287-9d19-774f6bc01da3"
+            name="&lt;&lt;return&gt;&gt;"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="3e811864-cfff-4bac-816a-af9a5915bc1f"
+                LastKnownName="MessageOccurrenceSpecification13"
+                LastKnownLocation="ModelProj.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="b3fea3cf-e38f-472c-8840-1e30fa8046be"
+                LastKnownName="MessageOccurrenceSpecification14"
+                LastKnownLocation="ModelProj.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="a2c0c560-cc01-49b3-b6dc-973c2d1f320d"
+            name="BeginRoute(elevatorID)"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="true">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="016a3116-635d-4ce8-a86e-f65d7aad3a62"
+                LastKnownName="MessageOccurrenceSpecification15"
+                LastKnownLocation="ModelProj.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="8475e35f-6b04-4e4e-96fe-a8ee29ebc186"
+                LastKnownName="MessageOccurrenceSpecification16"
+                LastKnownLocation="ModelProj.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="0a3897e0-45c7-4d5e-8f9d-0dcb5d7582c3"
+            name="Dequeue(elevatorID)"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="af8d98ed-97cf-4bc0-8aee-3e405772f2af"
+                LastKnownName="MessageOccurrenceSpecification17"
+                LastKnownLocation="ModelProj.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="b1e59e55-3a8c-42df-a26f-d6424c45875b"
+                LastKnownName="MessageOccurrenceSpecification18"
+                LastKnownLocation="ModelProj.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="3571817b-0bcd-47c2-95bb-0015eecb97cf"
+            name="destination"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="ced1d439-a802-4d29-a549-87505a61865a"
+                LastKnownName="MessageOccurrenceSpecification19"
+                LastKnownLocation="ModelProj.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="9524b971-d0e7-4dae-beee-a15bafbee27f"
+                LastKnownName="MessageOccurrenceSpecification20"
+                LastKnownLocation="ModelProj.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="5f7e3c63-c8fa-4e6f-b539-0f047ff6a25a"
+            name="Move(destination - Elevators[elevatorID].CurFloor)"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="fa869151-681b-4bed-a071-39a1c542b8f2"
+                LastKnownName="MessageOccurrenceSpecification21"
+                LastKnownLocation="ModelProj.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="089de796-efc4-436f-b411-4c32cbd59a90"
+                LastKnownName="MessageOccurrenceSpecification22"
+                LastKnownLocation="ModelProj.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="cd90c841-ca3b-4fa9-acff-b79dfaaa5534"
+            name="void"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="66f1a93d-0109-4357-8dbd-cdca2457b2bf"
+                LastKnownName="MessageOccurrenceSpecification23"
+                LastKnownLocation="ModelProj.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="c1115194-7e88-49d3-bc5e-20fa46583973"
+                LastKnownName="MessageOccurrenceSpecification24"
+                LastKnownLocation="ModelProj.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="dff5248c-8d77-415e-b36c-7835d4bdb2cd"
+            name="&lt;&lt;return&gt;&gt;"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="56b10226-115e-463c-ab19-7c78d42bdb53"
+                LastKnownName="MessageOccurrenceSpecification7"
+                LastKnownLocation="ModelProj.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="ce6212f4-7cd7-4e8a-a299-e4630c193e02"
+                LastKnownName="MessageOccurrenceSpecification8"
+                LastKnownLocation="ModelProj.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="1a15936b-6171-471f-84f8-1cb3bc2548a2"
+            name="void"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="661446c0-b6f9-4fdb-a3be-a14cbe2e0870"
+                LastKnownName="MessageOccurrenceSpecification3"
+                LastKnownLocation="ModelProj.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="ce2d6b55-47a4-48c1-a048-1de5dc626263"
+                LastKnownName="MessageOccurrenceSpecification4"
+                LastKnownLocation="ModelProj.uml" />
+            </receiveEvent>
+          </message>
+        </messages>
+        <ownedAttributesInternal>
+          <property
+            Id="03f00179-2c1c-4895-9d0e-6c4a472fef18"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <classMoniker
+                Id="4956718c-1ca1-40e1-a49a-3c0297f85e41"
+                LastKnownName="ElevatorBank"
+                LastKnownLocation="Package1_1537.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="a37a145c-364b-4109-9385-531008d8b17d"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <classMoniker
+                Id="22e37201-8925-4d65-b18a-133a597d9cd9"
+                LastKnownName="ElevatorButtonPanel"
+                LastKnownLocation="Package1_1537.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="45d1f8b6-0c15-488a-ac9e-9e05becbceb5"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <classMoniker
+                Id="ae23dd8a-b37e-44b9-9f44-8a5743014112"
+                LastKnownName="ElevatorController"
+                LastKnownLocation="Package1_1537.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="8bd899ce-4d1c-448c-9269-713caf623f19"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <classMoniker
+                Id="c8959397-72fc-4c4c-be9a-f60ffa37ee10"
+                LastKnownName="ElevatorStopQueue"
+                LastKnownLocation="Package1_1537.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="b4f4e7e8-8d73-43f4-a021-53cac2cffbd9"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <classMoniker
+                Id="ee4bf761-7276-4a7a-97cb-abe61f24560a"
+                LastKnownName="Elevator"
+                LastKnownLocation="Package1_1537.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="fb37e9c5-94a8-4544-b80e-9ad5d0d12d8f"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="57f28761-8791-48f8-9f1a-c9fb9b42951a"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="f60330c5-345e-4747-97a3-58182440a525"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="e9f185d2-fdd1-4724-a8fe-01248f970e73"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="92a8abf0-9b3b-4e20-89cf-d07bdc259c10"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="577cd5ff-59a1-43f0-8a24-851e273c00ca"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="ae7202ba-a40a-4f34-9580-a504f81b8280"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="ce16c25b-ec00-4656-b5a0-044a0aeda30a"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="94f5e7b7-3177-4d0b-b046-a371520683c3"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="be45793d-936b-4b10-b547-f9c6d403203b"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="13f1c68d-cd1a-4125-a117-a16226c29ad5"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="ec5994ca-b5a1-40b8-ae9b-626a7e09e314"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="26af9666-5bbd-4fef-97f5-88c0e843abf3"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="417523ed-f565-4c31-a5e6-29b6cd13e034"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="332ab9da-9dd4-4681-9297-25f7687f0374"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="86f442c6-302c-4f6c-b99c-0fe8ebdf855b"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="5cf218b7-6b2e-4567-9c0f-b1d6ff5791ca"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="98c7ce8f-8468-4ed3-994e-366499e69cb1"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="ce8bad98-e7d4-4bfd-ae83-a3dfdd97db7e"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="0c664e66-5283-471f-9210-b3a2eb91b713"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="ce675563-4326-4683-99ad-86f1f505233f"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="415298a8-6073-442d-b9ff-c9baed6997d8"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>
